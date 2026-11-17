@@ -10,7 +10,7 @@
 
 ---
 
-**FlowX** is a modular, Python-native framework for conventional and full-spectrum flow cytometry preprocessing, quality control, compensation/unmixing, batch correction, unsupervised population discovery, cohort statistics, and MIFlowCyt-compliant reporting.
+**FlowX** is a source-available, Python-native bioinformatics framework for conventional and full-spectrum flow cytometry preprocessing, quality control, compensation/unmixing, batch correction, unsupervised population discovery, cohort statistics, and MIFlowCyt-compliant reporting — free for academic and non-commercial research, with enterprise BYOC licenses available for industry.
 
 ## Installation
 

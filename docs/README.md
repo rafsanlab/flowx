@@ -14,7 +14,7 @@
 
 # FlowX Documentation
 
-Welcome to **FlowX** — a modular, Python-native framework for conventional and full-spectrum flow cytometry preprocessing, quality control, compensation/unmixing, batch correction, unsupervised population discovery, cohort statistics, and MIFlowCyt-compliant reporting.
+Welcome to **FlowX** — a source-available, modular, Python-native bioinformatics framework for conventional and full-spectrum flow cytometry preprocessing, quality control, compensation/unmixing, batch correction, unsupervised population discovery, cohort statistics, and MIFlowCyt-compliant reporting — free for academic and non-commercial research, with enterprise BYOC licenses available for industry.
 
 FlowX documentation is structured around the **[Diátaxis framework](https://diataxis.fr/)**, separating hands-on learning from task recipes, technical lookup, and mathematical theory.
 

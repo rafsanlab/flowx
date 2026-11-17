@@ -1,6 +1,6 @@
 """FlowX: Flow Cytometry Analysis and Visualization Framework.
 
-A modular Python framework for parsing, compensating,
+A source-available, modular Python framework for parsing, compensating,
 transforming, gating, clustering, and visualizing flow cytometry FCS files.
 """
 
