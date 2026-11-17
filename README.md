@@ -5,7 +5,7 @@
 <h1 align="center">FlowX</h1>
 
 <p align="center">
-  Modular, Automated Flow &amp; Spectral Cytometry Analysis Framework
+  Modular, Automated Conventional &amp; Spectral Flow Cytometry Analysis Framework
 </p>
 
 ---
