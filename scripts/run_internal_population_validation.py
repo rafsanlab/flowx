@@ -465,7 +465,7 @@ Output results adhere to the standardized directory architecture:
 
 ## 2. Cohort 1: Clinical FlowCyt Acute Leukemia Cohort (30 Patients)
 
-* **Publication Reference**: Lorenzo Bini et al., *"FlowCyt: A Comparative Study of Deep Learning Approaches for Multi-Class Classification in Flow Cytometry"*, *Proceedings of Machine Learning Research* (PMLR), CHIL 2024. [Paper PDF](file:///data/conventional/bini_2024_flowcyt/publications/bini24a_flowcyt_chil2024.pdf).
+* **Publication Reference**: Lorenzo Bini et al., *"FlowCyt: A Comparative Study of Deep Learning Approaches for Multi-Class Classification in Flow Cytometry"*, *Proceedings of Machine Learning Research* (PMLR), CHIL 2024.
 * **Design**: 30 acute myeloid and lymphoid leukemia patient bone marrow aspirates auto-balanced to the bottleneck sample ({flow_per:,} cells/patient; {flow_cnt:,} cells total).
 * **Markers Analyzed**: 10 canonical diagnostic markers (CD14, CD19, CD13, CD33, CD34, CD117, CD7, CD16, HLA-DR, CD45).
 * **Population Discovery**: FlowSOM resolved 10 distinct metaclusters identifying blast phenotypes (CD34+ CD117+ HLA-DR+), monocyte subsets (CD14+ CD33+), and mature lymphoid cells (CD19+, CD7+).
@@ -480,7 +480,7 @@ Output results adhere to the standardized directory architecture:
 
 ## 3. Cohort 2: TQC Tutorial Stimulation Response (Unstimulated vs Stimulated)
 
-* **Publication / Documentation Reference**: BD Biosciences / FlowJo LLC, *"FlowJo Basic Tutorial: Analyzing T-Cell Activation and Phosphorylation by Flow Cytometry"*. [Tutorial Guide](file:///data/conventional/tqc_2020_basic_tutorial/publications/flowjo_basic_tutorial_guide.md).
+* **Publication / Documentation Reference**: BD Biosciences / FlowJo LLC, *"FlowJo Basic Tutorial: Analyzing T-Cell Activation and Phosphorylation by Flow Cytometry"*.
 * **Design**: 8 BD LSRII healthy PBMC samples auto-balanced to the bottleneck sample ({tqc_per:,} cells/sample; {tqc_cnt:,} cells total; 2 Unstimulated NS+NS vs 6 PMA/Ionomycin stimulated).
 * **Markers Analyzed**: 8 T-cell and leukocyte lineage markers (CD3, CD4, CD8, HLA-DR, CD14, CD19, CD16, CD56).
 * **Differential Abundance Findings**:

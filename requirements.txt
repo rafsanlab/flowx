@@ -1,6 +1,6 @@
 # ==============================================================================
 # Flow Cytometry Pipeline - Core Python Dependencies (100% Permissive Licenses)
-# Suitable for Dual-Licensing (e.g. PolyForm Noncommercial + Commercial Enterprise)
+# Core dependencies are permissive; FlowX itself is licensed under BSL-1.1
 # ==============================================================================
 
 # ------------------------------------------------------------------------------

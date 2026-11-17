@@ -66,13 +66,35 @@ def test_resolve_datasets_query():
     assert len(spec_all) == 9
 
 
-def test_verify_dataset_local():
-    """Verify local verification on existing benchmark dataset."""
-    data_dir = Path("data")
+def _create_mock_coburn_dataset(data_dir: Path) -> None:
+    """Create a minimal coburn dataset layout with 9 FCS files and matching manifest."""
+    ds_dir = data_dir / "conventional" / "coburn_2021_thp1_stiffness"
+    controls_dir = ds_dir / "raw" / "controls"
+    samples_dir = ds_dir / "raw" / "samples"
+    meta_dir = ds_dir / "metadata"
+    controls_dir.mkdir(parents=True, exist_ok=True)
+    samples_dir.mkdir(parents=True, exist_ok=True)
+    meta_dir.mkdir(parents=True, exist_ok=True)
+
+    manifest = []
+    for i in range(5):
+        fn = f"ctrl_{i}.fcs"
+        (controls_dir / fn).write_bytes(b"FCS3.0")
+        manifest.append({"filename": fn, "relative_path": f"raw/controls/{fn}", "role": "control"})
+    for i in range(4):
+        fn = f"sample_{i}.fcs"
+        (samples_dir / fn).write_bytes(b"FCS3.0")
+        manifest.append({"filename": fn, "relative_path": f"raw/samples/{fn}", "role": "sample"})
+    (meta_dir / "dataset_manifest.json").write_text(json.dumps(manifest), encoding="utf-8")
+
+
+def test_verify_dataset_local(tmp_path):
+    """Verify local verification on a populated benchmark dataset and a missing one."""
+    _create_mock_coburn_dataset(tmp_path)
     coburn_info = get_dataset("coburn")
     assert coburn_info is not None
 
-    res = verify_dataset(coburn_info, data_dir)
+    res = verify_dataset(coburn_info, tmp_path)
     assert res.exists is True
     assert res.status == "Ready"
     assert res.total_fcs == 9
@@ -84,7 +106,7 @@ def test_verify_dataset_local():
         name="Fake",
         category="conventional",
     )
-    fake_res = verify_dataset(fake_info, data_dir)
+    fake_res = verify_dataset(fake_info, tmp_path)
     assert fake_res.exists is False
     assert fake_res.status == "Missing"
 
@@ -128,9 +150,10 @@ def test_cli_download_info_execution(capsys):
     assert ret == 0
 
 
-def test_cli_download_json_execution(capsys):
+def test_cli_download_json_execution(capsys, tmp_path):
     """Test executing flowx download coburn --info --json."""
-    ret = main(["download", "coburn", "--info", "--json"])
+    _create_mock_coburn_dataset(tmp_path)
+    ret = main(["download", "coburn", "--info", "--json", "--data-dir", str(tmp_path)])
     assert ret == 0
     captured = capsys.readouterr()
     data = json.loads(captured.out)
@@ -140,9 +163,10 @@ def test_cli_download_json_execution(capsys):
     assert data[0]["verification"]["status"] == "Ready"
 
 
-def test_cli_download_verify_only(capsys):
+def test_cli_download_verify_only(capsys, tmp_path):
     """Test executing flowx download coburn --verify-only."""
-    ret = main(["download", "coburn", "--verify-only"])
+    _create_mock_coburn_dataset(tmp_path)
+    ret = main(["download", "coburn", "--verify-only", "--data-dir", str(tmp_path)])
     assert ret == 0
 
 

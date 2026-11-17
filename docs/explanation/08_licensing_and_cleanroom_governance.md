@@ -1,6 +1,6 @@
 # Explanation: Licensing & Clean-Room Governance
 
-FlowX enforces a strict architectural boundary between a **100% Permissive Core** (BSD-3-Clause / MIT dependencies only) and **Isolated Optional Research Extensions**, ensuring both open academic reproducibility and unencumbered commercial/enterprise embedding.
+FlowX is distributed under the **Business Source License 1.1** (`LICENSE.txt`, converting to **MPL-2.0** on `2030-11-17`), with free production use for non-commercial academic, educational, and non-profit scientific research and commercial licenses available for industry. Architecturally, FlowX enforces a strict boundary between a **100% Permissive Core Dependency Tree** (BSD-3-Clause / MIT / PSF / MPL-2.0 only) and **Isolated Optional Research Extensions**, ensuring both open academic reproducibility and clean-room IP hygiene without viral GPL copyleft contamination.
 
 ---
 
