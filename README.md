@@ -78,6 +78,6 @@ Full documentation (Tutorials, How-To Guides, Reference, and Mathematical Explan
 
 FlowX is licensed under the **Business Source License 1.1** ([`LICENSE.txt`](LICENSE.txt)).
 
-- **Additional Use Grant:** Production use is permitted solely for non-commercial academic, educational, or non-profit scientific research purposes. All other production use requires a commercial license from the Licensor.
+- **Additional Use Grant:** Production use is permitted solely for non-commercial academic, educational, or non-profit scientific research purposes. Any use by or on behalf of a for-profit entity—including internal R&D, drug discovery, or generating data or insights for commercial purposes—is excluded and requires a commercial license from the Licensor.
 - **Change Date:** `2030-11-17`
 - **Change License:** **Mozilla Public License 2.0 (MPL-2.0)**
