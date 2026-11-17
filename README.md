@@ -10,7 +10,7 @@
 
 ---
 
-**FlowX** is an open-source, Python-native framework for conventional and full-spectrum flow cytometry preprocessing, quality control, compensation/unmixing, batch correction, unsupervised population discovery, cohort statistics, and MIFlowCyt-compliant reporting.
+**FlowX** is a source-available, Python-native framework for conventional and full-spectrum flow cytometry preprocessing, quality control, compensation/unmixing, batch correction, unsupervised population discovery, cohort statistics, and MIFlowCyt-compliant reporting.
 
 ## Installation
 
@@ -73,3 +73,11 @@ flowx pipeline --config configs/config_run/<platform>/<dataset>.yaml
 ## Documentation
 
 Full documentation (Tutorials, How-To Guides, Reference, and Mathematical Explanations) is available in [`docs/README.md`](docs/README.md).
+
+## License
+
+FlowX is licensed under the **Business Source License 1.1** ([`LICENSE.txt`](LICENSE.txt)).
+
+- **Additional Use Grant:** Production use is permitted solely for non-commercial academic, educational, or non-profit scientific research purposes. All other production use requires a commercial license from the Licensor.
+- **Change Date:** `2030-11-17`
+- **Change License:** **Mozilla Public License 2.0 (MPL-2.0)**
