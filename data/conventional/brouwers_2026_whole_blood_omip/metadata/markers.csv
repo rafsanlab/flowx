@@ -1,0 +1,31 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+FSC-A,FSC-A,Scatter,NA,scatter,All Intact Events,FCS_$P1N
+FSC-H,FSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P2N
+FSC-W,FSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P3N
+SSC-A,SSC-A,Scatter,NA,scatter,Leukocyte Granularity,FCS_$P4N
+SSC-H,SSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P5N
+SSC-W,SSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P6N
+Blue1-530_30-A,CD8,FITC,Not specified in FCS or publication,lineage,Cytotoxic T Cells (CD8+),FCS_$P7N/$P7S + OMIP_Panel_Summary.md
+Blue2-610_20-A,CD45,RealBlue 613,Not specified in FCS or publication,lineage,Pan-Leukocytes,FCS_$P8N/$P8S + OMIP_Panel_Summary.md
+Blue4-710_50-A,CD14_TCRgd,PerCP-Cy5.5,Not specified in FCS or publication,lineage;dump,Monocytes; Gamma-Delta T Cells,FCS_$P9N/$P9S + OMIP_Panel_Summary.md
+Blue5-750_30-A,CD123,RealBlue 744,Not specified in FCS or publication,lineage,Plasmacytoid Dendritic Cells; Basophils,FCS_$P10N/$P10S + OMIP_Panel_Summary.md
+Blue6-810_40-A,CD31,RealBlue 780,Not specified in FCS or publication,functional,Endothelial / Naive T Cells (PECAM-1),FCS_$P11N/$P11S + OMIP_Panel_Summary.md
+Red1-670_30-A,CD127,APC,Not specified in FCS or publication,functional,IL-7R-alpha; T Cell Memory / Tregs,FCS_$P12N/$P12S + OMIP_Panel_Summary.md
+Red2-710_50-A,CXCR5,APC-R700,Not specified in FCS or publication,functional,T Follicular Helper Cells; B Cells,FCS_$P13N/$P13S + OMIP_Panel_Summary.md
+Red3-780_60-A,CD138,APC-Fire 750,Not specified in FCS or publication,lineage;functional,Plasma Cells / Syndecan-1,FCS_$P14N/$P14S + OMIP_Panel_Summary.md
+UV1-379_28-A,CD19,BUV395,Not specified in FCS or publication,lineage,Pan-B Cells,FCS_$P15N/$P15S + OMIP_Panel_Summary.md
+UV3-580_20-A,CD56,BUV563,Not specified in FCS or publication,lineage,Natural Killer Cells (NCAM),FCS_$P16N/$P16S + OMIP_Panel_Summary.md
+UV4-610_20-A,CD4,BUV615,Not specified in FCS or publication,lineage,Helper T Cells (CD4+),FCS_$P17N/$P17S + OMIP_Panel_Summary.md
+UV6-740_35-A,CD45RA,BUV737,Not specified in FCS or publication,functional,Naive / TEMRA Lymphocyte Differentiation,FCS_$P18N/$P18S + OMIP_Panel_Summary.md
+UV7-810_40-A,CXCR4,BUV805,Not specified in FCS or publication,functional,Chemokine Receptor; Cell Homing,FCS_$P19N/$P19S + OMIP_Panel_Summary.md
+Violet2-525_50-A,CD11a,BV480,Not specified in FCS or publication,functional,Integrin alpha-L; Leukocyte Adhesion,FCS_$P20N/$P20S + OMIP_Panel_Summary.md
+Violet4-610_20-A,CD3_IgD,BV605,Not specified in FCS or publication,lineage,Pan-T Cells (CD3); Naive B Cells (IgD),FCS_$P21N/$P21S + OMIP_Panel_Summary.md
+Violet5-670_30-A,HLA_DR,BV650,Not specified in FCS or publication,lineage;functional,Antigen Presenting Cells (MHC-II); Activated T Cells,FCS_$P22N/$P22S + OMIP_Panel_Summary.md
+Violet6-710_50-A,CD27,BV711,Not specified in FCS or publication,functional,Costimulatory Receptor; Memory B / T Cells,FCS_$P23N/$P23S + OMIP_Panel_Summary.md
+Violet7-750_30-A,CD11c,BV750,Not specified in FCS or publication,lineage,Myeloid Dendritic Cells; Monocytes,FCS_$P24N/$P24S + OMIP_Panel_Summary.md
+Violet8-810_40-A,CD16,BV786,Not specified in FCS or publication,lineage;functional,Non-classical Monocytes; NK Cells; Neutrophils (Fc-gamma-RIII),FCS_$P25N/$P25S + OMIP_Panel_Summary.md
+YG1-586_15-A,panKIR,PE,Not specified in FCS or publication,functional,Killer Cell Immunoglobulin-like Receptors; NK Subsets,FCS_$P26N/$P26S + OMIP_Panel_Summary.md
+YG2-610_20-A,CD38,PE-CF594,Not specified in FCS or publication,functional,Cyclic ADP Ribose Hydrolase; Plasmablasts / Activation,FCS_$P27N/$P27S + OMIP_Panel_Summary.md
+YG4-780_60-A,CD25,PE-Cy7,Not specified in FCS or publication,functional,IL-2R-alpha; Activated T Cells / Tregs,FCS_$P28N/$P28S + OMIP_Panel_Summary.md
+Time,Time,Time,NA,time,Fluidics Acquisition Stability QC,FCS_$P29N
+

@@ -1,0 +1,14 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+FSC-A,FSC-A,Scatter,NA,scatter,All Intact Events,FCS_$P1N
+FSC-H,FSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P2N
+FSC-W,FSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P3N
+SSC-A,SSC-A,Scatter,NA,scatter,Lymphocytes; Monocytes; Granularity,FCS_$P4N
+B710-A,CD4,PerCP-Cy5.5,Not specified in FCS or publication,lineage,CD4+ Helper T Cells; Regulatory T Cells (Tregs),FCS_$P5N/$P5S (CD4 PcpCy55) + manual.xml
+R660-A,CD38,APC,Not specified in FCS or publication,functional,Activated T Cells; Transitional B Cells; Plasmablasts,FCS_$P6N/$P6S (CD38 APC) + manual.xml
+R780-A,CD8,APC-H7,Not specified in FCS or publication,lineage,CD8+ Cytotoxic T Cells,FCS_$P7N/$P7S (CD8 APCH7) + manual.xml
+V450-A,CD3,V450,Not specified in FCS or publication,lineage,Pan-T Cells,FCS_$P8N/$P8S (CD3 V450) + manual.xml
+V545-A,HLA-DR,V500,Not specified in FCS or publication,lineage;functional,Antigen Presenting Cells (Monocytes/B Cells/DCs); Activated T Cells,FCS_$P9N/$P9S (HLA-DR V500) + manual.xml
+G560-A,CCR7,PE,Not specified in FCS or publication,functional,Naive T Cells; Central Memory T Cells (TCM),FCS_$P10N/$P10S (CCR7 PE) + manual.xml
+G780-A,CD45RA,PE-Cy7,Not specified in FCS or publication,functional,Naive T Cells; Terminal Effector Memory RA+ T Cells (TEMRA),FCS_$P11N/$P11S (CD45RA PECy7) + manual.xml
+Time,Time,Time,NA,time,Fluidics Acquisition Stability QC,FCS_$P12N
+

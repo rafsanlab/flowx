@@ -1,0 +1,235 @@
+# ==============================================================================
+# Flow Cytometry Cohort Panel Harmonization Specification
+# ==============================================================================
+# Harmonizes heterogeneous detector naming schemes across Beckman Coulter Navios,
+# flowCore R exports, Cytobank exports, and standard BD/Cytek cytometer formats.
+# Downstream algorithms (CytoNorm, FlowSOM, PhenoGraph) receive unified canonical
+# marker columns.
+# ==============================================================================
+
+name: "10-Color Leukemia / Bone Marrow Consensus Panel"
+version: "1.0"
+description: "Cohort harmonization for 10-color multi-laser clinical bone marrow immunophenotyping (Beckman Coulter Navios & flowCore exports)"
+
+settings:
+  # Action when a required canonical channel is missing: 'warn', 'error', or 'ignore'
+  on_missing: "warn"
+  
+  # If true, excludes unmapped channels from harmonized DataFrame
+  drop_unmapped: false
+  
+  # If true, records original source detector mapping in sample metadata
+  preserve_raw_names: true
+
+channels:
+  # ----------------------------------------------------------------------------
+  # Morphology & Physical Parameters
+  # ----------------------------------------------------------------------------
+  FSC-A:
+    aliases:
+      - "FS INT"
+      - "FS.INT"
+      - "FSC-A"
+      - "FSC_A"
+      - "FS-INT"
+      - "FS_INT"
+      - "Forward Scatter"
+      - "FSC-Area"
+    type: "scatter"
+    required: true
+    description: "Forward Scatter Area (Cell size / morphology)"
+
+  SSC-A:
+    aliases:
+      - "SS INT"
+      - "SS.INT"
+      - "SSC-A"
+      - "SSC_A"
+      - "SS-INT"
+      - "SS_INT"
+      - "Side Scatter"
+      - "SSC-Area"
+    type: "scatter"
+    required: true
+    description: "Side Scatter Area (Cell internal granularity / complexity)"
+
+  FSC-H:
+    aliases:
+      - "FS PEAK"
+      - "FS.PEAK"
+      - "FSC-H"
+      - "FSC_H"
+      - "FS-PEAK"
+      - "Forward Scatter Height"
+    type: "scatter"
+    required: false
+    description: "Forward Scatter Pulse Height (Doublet discrimination)"
+
+  SSC-H:
+    aliases:
+      - "SS PEAK"
+      - "SS.PEAK"
+      - "SSC-H"
+      - "SSC_H"
+      - "SS-PEAK"
+      - "Side Scatter Height"
+    type: "scatter"
+    required: false
+    description: "Side Scatter Pulse Height"
+
+  Time:
+    aliases:
+      - "TIME"
+      - "Time"
+      - "Time ms"
+      - "time.ms"
+      - "TIME-A"
+      - "Time-A"
+    type: "time"
+    required: false
+    description: "Fluidics acquisition timestamp"
+
+  # ----------------------------------------------------------------------------
+  # Fluorescent Lineage & Phenotyping Markers (10-Color Deck)
+  # ----------------------------------------------------------------------------
+  CD14:
+    aliases:
+      - "FL1 INT"
+      - "CD14.FITC"
+      - "CD14-FITC"
+      - "FITC-A"
+      - "FL1-A"
+      - "CD14"
+    fluorophore: "FITC"
+    type: "fluorescent"
+    required: true
+    description: "Monocyte marker (LPS co-receptor)"
+
+  CD19:
+    aliases:
+      - "FL2 INT"
+      - "CD19.PE"
+      - "CD19-PE"
+      - "PE-A"
+      - "FL2-A"
+      - "CD19"
+    fluorophore: "PE"
+    type: "fluorescent"
+    required: true
+    description: "B-lymphocyte lineage marker"
+
+  CD13:
+    aliases:
+      - "FL3 INT"
+      - "CD13.ECD"
+      - "CD13-ECD"
+      - "ECD-A"
+      - "PE-TxRed-A"
+      - "FL3-A"
+      - "CD13"
+    fluorophore: "ECD / PE-TxRed"
+    type: "fluorescent"
+    required: true
+    description: "Myeloid differentiation antigen (aminopeptidase N)"
+
+  CD33:
+    aliases:
+      - "FL4 INT"
+      - "CD33.PC5.5"
+      - "CD33-PC5.5"
+      - "PC5.5-A"
+      - "PerCP-Cy5-5-A"
+      - "PerCP-Cy5.5-A"
+      - "FL4-A"
+      - "CD33"
+    fluorophore: "PerCP-Cy5.5 / PC5.5"
+    type: "fluorescent"
+    required: true
+    description: "Myeloid lineage marker (Siglec-3)"
+
+  CD34:
+    aliases:
+      - "FL5 INT"
+      - "CD34.PC7"
+      - "CD34-PC7"
+      - "PC7-A"
+      - "PE-Cy7-A"
+      - "FL5-A"
+      - "CD34"
+    fluorophore: "PE-Cy7 / PC7"
+    type: "fluorescent"
+    required: true
+    description: "Hematopoietic stem and progenitor cell (HSPC) marker"
+
+  CD117:
+    aliases:
+      - "FL6 INT"
+      - "CD117.APC"
+      - "CD117-APC"
+      - "APC-A"
+      - "FL6-A"
+      - "c-Kit"
+      - "cKit"
+      - "CD117"
+    fluorophore: "APC"
+    type: "fluorescent"
+    required: true
+    description: "Stem cell factor receptor (c-Kit / early myeloid / mast cell marker)"
+
+  CD7:
+    aliases:
+      - "FL7 INT"
+      - "CD7.APC700"
+      - "CD7-APC700"
+      - "APC-A700-A"
+      - "Alexa Fluor 700-A"
+      - "FL7-A"
+      - "CD7"
+    fluorophore: "APC-Alexa700"
+    type: "fluorescent"
+    required: true
+    description: "T-cell and NK-cell lineage marker"
+
+  CD16:
+    aliases:
+      - "FL8 INT"
+      - "CD16.APC750"
+      - "CD16-APC750"
+      - "APC-A750-A"
+      - "APC-Cy7-A"
+      - "FL8-A"
+      - "CD16"
+    fluorophore: "APC-Alexa750"
+    type: "fluorescent"
+    required: true
+    description: "Fc-gamma receptor III (NK cell & granulocyte marker)"
+
+  HLA-DR:
+    aliases:
+      - "FL9 INT"
+      - "HLA.PB"
+      - "HLA-PB"
+      - "PacBlue-A"
+      - "Pacific Blue-A"
+      - "FL9-A"
+      - "HLA-DR"
+      - "HLA"
+      - "HLADR"
+    fluorophore: "Pacific Blue"
+    type: "fluorescent"
+    required: true
+    description: "MHC Class II antigen-presenting cell marker"
+
+  CD45:
+    aliases:
+      - "FL10 INT"
+      - "CD45.KO"
+      - "CD45-KO"
+      - "KO-A"
+      - "Krome Orange-A"
+      - "FL10-A"
+      - "CD45"
+    fluorophore: "Krome Orange"
+    type: "fluorescent"
+    required: true
+    description: "Leukocyte common antigen (pan-leukocyte marker)"

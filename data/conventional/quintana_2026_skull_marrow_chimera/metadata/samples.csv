@@ -1,0 +1,6 @@
+sample_id,filename,relative_path,condition,replicate,specimen,donor_or_cell_line,batch_id,acquisition_date,acquisition_time,cytometer,is_control,total_events,provenance_source
+Meninges Broad_Tube_006,Meninges Broad_Tube_006.fcs,raw/samples/Meninges Broad_Tube_006.fcs,Meninges,Replicate_1,Meninges_Tissue,C57BL6_Mouse_Infected_T_brucei,2026-07-15_LSRFortessa,2026-07-15,10:51:07,LSRFortessa,false,19701,FCS_$TEXT + DOI:10.1371/journal.pbio.3002389
+Meninges Broad_Tube_008,Meninges Broad_Tube_008.fcs,raw/samples/Meninges Broad_Tube_008.fcs,Meninges,Replicate_2,Meninges_Tissue,C57BL6_Mouse_Infected_T_brucei,2026-07-15_LSRFortessa,2026-07-15,10:53:27,LSRFortessa,false,98010,FCS_$TEXT + DOI:10.1371/journal.pbio.3002389
+Skull BM Broad_Tube_017,Skull BM Broad_Tube_017.fcs,raw/samples/Skull BM Broad_Tube_017.fcs,Skull_Bone_Marrow,Replicate_1,Skull_Bone_Marrow_Tissue,C57BL6_Mouse_Infected_T_brucei,2026-07-15_LSRFortessa,2026-07-15,11:34:37,LSRFortessa,false,14077,FCS_$TEXT + DOI:10.1371/journal.pbio.3002389
+Skull BM Broad_Tube_022,Skull BM Broad_Tube_022.fcs,raw/samples/Skull BM Broad_Tube_022.fcs,Skull_Bone_Marrow,Replicate_2,Skull_Bone_Marrow_Tissue,C57BL6_Mouse_Infected_T_brucei,2026-07-15_LSRFortessa,2026-07-15,11:40:43,LSRFortessa,false,9256,FCS_$TEXT + DOI:10.1371/journal.pbio.3002389
+

@@ -1,0 +1,10 @@
+{
+  "title": "A 24 colour-panel to functionally characterise energy metabolism from peripheral blood mononuclear cells by advanced flow cytometry",
+  "doi": "10.5281/zenodo.15350040",
+  "citation": "Miranda Sole, C., Dominguez-Villar, M., & Rowley, J. (2025). Zenodo (DOI: 10.5281/zenodo.15350040); SCENITH assay protocol per Arguello et al. (2020, Cell Metabolism)",
+  "publication_date": "2025-05-06",
+  "cytometer": "Agilent NovoCyte Penteon",
+  "biology": "Human PBMCs immunometabolism profiling (SCENITH Puromycin incorporation)",
+  "parameters": "30 total FCS parameters (4 scatter, 24 fluorescence markers/viability, Time/width channels)",
+  "af_strategy": "Not applicable (conventional 24-color spillover compensation on NovoCyte Penteon)"
+}

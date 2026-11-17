@@ -1,0 +1,10 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+FSC-H,FSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P1N
+FSC-A,FSC-A,Scatter,NA,scatter,All Intact Events,FCS_$P2N
+SSC-H,SSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P3N
+SSC-A,SSC-A,Scatter,NA,scatter,Cell Granularity / Intact Cells,FCS_$P4N
+FL5-H,BKPyV_VP1,Alexa Fluor 488,Memo Therapeutics AG (clone 45F07),functional,Viral Capsid Binding Intensity (Height),FCS_$P5N/$P5S + Weber et al. DOI:10.1371/journal.ppat.1013122
+FL5-A,BKPyV_VP1,Alexa Fluor 488,Memo Therapeutics AG (clone 45F07),functional,Viral Capsid Binding Intensity (Area),FCS_$P6N/$P6S + Weber et al. DOI:10.1371/journal.ppat.1013122
+FSC-Width,FSC-Width,Scatter,NA,scatter,Singlet Discrimination (Pulse Width),FCS_$P7N
+Time,Time,Time,NA,time,Fluidics Acquisition Stability QC,FCS_$P8N
+

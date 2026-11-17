@@ -1,0 +1,14 @@
+sample_id,filename,relative_path,condition,replicate,specimen,donor_or_cell_line,batch_id,acquisition_date,acquisition_time,cytometer,is_control,total_events,provenance_source
+ID1_Panel1_TP1,ID1_Panel1_TP1.fcs,raw/samples/ID1_Panel1_TP1.fcs,Baseline_Pre_Vaccination,Replicate_1,PBMC_ID1_Panel1_TP1,ID1,2020-08-10_LSRFortessa,2020-08-10,15:41:18,LSRFortessa,false,1685,FCS_$TEXT + DOI:10.1136/jitc-2023-007070
+ID1_Panel1_TP2,ID1_Panel1_TP2.fcs,raw/samples/ID1_Panel1_TP2.fcs,Post_Vaccine_Dose_1,Replicate_1,PBMC_ID1_Panel1_TP2,ID1,2020-08-10_LSRFortessa,2020-08-10,15:42:43,LSRFortessa,false,4171,FCS_$TEXT + DOI:10.1136/jitc-2023-007070
+ID1_Panel1_TP3,ID1_Panel1_TP3.fcs,raw/samples/ID1_Panel1_TP3.fcs,Post_Vaccine_Dose_3,Replicate_1,PBMC_ID1_Panel1_TP3,ID1,2020-08-10_LSRFortessa,2020-08-10,15:44:33,LSRFortessa,false,2596,FCS_$TEXT + DOI:10.1136/jitc-2023-007070
+ID2_Panel1_TP1,ID2_Panel1_TP1.fcs,raw/samples/ID2_Panel1_TP1.fcs,Baseline_Pre_Vaccination,Replicate_1,PBMC_ID2_Panel1_TP1,ID2,2020-08-10_LSRFortessa,2020-08-10,15:45:54,LSRFortessa,false,5434,FCS_$TEXT + DOI:10.1136/jitc-2023-007070
+ID2_Panel1_TP2,ID2_Panel1_TP2.fcs,raw/samples/ID2_Panel1_TP2.fcs,Post_Vaccine_Dose_1,Replicate_1,PBMC_ID2_Panel1_TP2,ID2,2020-08-10_LSRFortessa,2020-08-10,15:47:29,LSRFortessa,false,5307,FCS_$TEXT + DOI:10.1136/jitc-2023-007070
+ID2_Panel1_TP3,ID2_Panel1_TP3.fcs,raw/samples/ID2_Panel1_TP3.fcs,Post_Vaccine_Dose_3,Replicate_1,PBMC_ID2_Panel1_TP3,ID2,2020-08-10_LSRFortessa,2020-08-10,15:48:35,LSRFortessa,false,7047,FCS_$TEXT + DOI:10.1136/jitc-2023-007070
+ID3_Panel1_TP1,ID3_Panel1_TP1.fcs,raw/samples/ID3_Panel1_TP1.fcs,Baseline_Pre_Vaccination,Replicate_1,PBMC_ID3_Panel1_TP1,ID3,2020-08-10_LSRFortessa,2020-08-10,15:53:03,LSRFortessa,false,774,FCS_$TEXT + DOI:10.1136/jitc-2023-007070
+ID3_Panel1_TP2,ID3_Panel1_TP2.fcs,raw/samples/ID3_Panel1_TP2.fcs,Post_Vaccine_Dose_1,Replicate_1,PBMC_ID3_Panel1_TP2,ID3,2020-08-10_LSRFortessa,2020-08-10,15:54:05,LSRFortessa,false,2318,FCS_$TEXT + DOI:10.1136/jitc-2023-007070
+ID3_Panel1_TP3,ID3_Panel1_TP3.fcs,raw/samples/ID3_Panel1_TP3.fcs,Post_Vaccine_Dose_3,Replicate_1,PBMC_ID3_Panel1_TP3,ID3,2020-08-10_LSRFortessa,2020-08-10,15:55:21,LSRFortessa,false,3487,FCS_$TEXT + DOI:10.1136/jitc-2023-007070
+ID5_Panel1_TP1,ID5_Panel1_TP1.fcs,raw/samples/ID5_Panel1_TP1.fcs,Baseline_Pre_Vaccination,Replicate_1,PBMC_ID5_Panel1_TP1,ID5,2022-06-16_LSRFortessa,2022-06-16,17:01:52,LSRFortessa,false,12394,FCS_$TEXT + DOI:10.1136/jitc-2023-007070
+ID5_Panel1_TP2,ID5_Panel1_TP2.fcs,raw/samples/ID5_Panel1_TP2.fcs,Post_Vaccine_Dose_1,Replicate_1,PBMC_ID5_Panel1_TP2,ID5,2022-06-16_LSRFortessa,2022-06-16,17:02:33,LSRFortessa,false,22804,FCS_$TEXT + DOI:10.1136/jitc-2023-007070
+ID5_Panel1_TP3,ID5_Panel1_TP3.fcs,raw/samples/ID5_Panel1_TP3.fcs,Post_Vaccine_Dose_3,Replicate_1,PBMC_ID5_Panel1_TP3,ID5,2022-06-16_LSRFortessa,2022-06-16,17:03:23,LSRFortessa,false,30990,FCS_$TEXT + DOI:10.1136/jitc-2023-007070
+

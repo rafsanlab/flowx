@@ -1,0 +1,13 @@
+# ==============================================================================
+# Flow Cytometry Pipeline - Optional Extensions
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Graph-Based Community Clustering (PhenoGraph)
+# ------------------------------------------------------------------------------
+# Package License: MIT
+# Note on Copyleft Dependencies:
+# PhenoGraph requires 'leidenalg' (GPL-3.0) and 'igraph' (GPL-2.0).
+# Installing this package is optional and intended for academic, research, or
+# open-source environments comfortable with GPL-licensed components.
+PhenoGraph>=1.5.7

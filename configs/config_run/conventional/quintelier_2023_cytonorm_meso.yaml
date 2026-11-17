@@ -1,0 +1,106 @@
+# ==============================================================================
+# Quintelier 2023 CytoNorm Mesothelioma Benchmark (Pre-QC/Pre-Comp/Pre-Transformed) (Unified Config Schema)
+# ==============================================================================
+
+input:
+  fcs_file: data/conventional/quintelier_2023_cytonorm_meso
+  technology: conventional
+  metadata_file: data/conventional/quintelier_2023_cytonorm_meso/metadata/samples.csv
+  markers_file: data/conventional/quintelier_2023_cytonorm_meso/metadata/markers.csv
+analysis:
+  gating_mode: som
+  cluster_parent: singlet
+  qc_method: clustering
+  adaptive_gating: true
+  enable_qc: true
+  enable_discovery: true
+  numbered_steps: true
+  seed: 42
+  log_level: INFO
+visualization:
+  legend_mode: centroid
+01_time_qc:
+  enabled: false
+  bin_width: null
+02_compensation:
+  enabled: false
+  source: none
+03_cleanup_gating:
+  enabled: false
+  debris_method: gmm
+  debris_n_components: 3
+  debris_sd_scale: 1.0
+  debris_min_probability: null
+  singlet_mode: dual
+  singlet_method: gmm_ratio
+  singlet_tolerance: 0.25
+  enable_viability: false
+  viability_channel: BV480-A
+  viability_cutoff: null
+  viability_looseness: 1.0
+  dump_enabled: false
+  dump_channel: null
+  dump_cutoff: null
+  dump_looseness: 1.0
+  export_clean_fcs: false
+04_transformation:
+  enabled: false
+  method: arcsinh
+  cofactor: 150.0
+  channels: auto
+  exclude_channels: null
+04_batch_preparation:
+  enabled: true
+  normalization_method: quantile
+  batch_column: batch_id
+  goal: median
+  mode: min_sample
+  target_events: 5000
+  min_events_threshold: 500
+  assess_batch_effect: true
+  overwrite_autocheck: false
+05_population_discovery:
+  enabled: true
+  lineage_markers: auto
+  marker_roles:
+  - lineage
+  - functional
+  clustering_method: som
+  n_clusters: 10
+  auto_k: true
+  auto_k_method: consensus
+  k_min: 4
+  k_max: 16
+  consensus_subsample: 0.8
+  consensus_iterations: 50
+  compute_umap: true
+  umap_events_per_sample: 1000
+  umap_covariates:
+  - batch_id
+  stratified_density_contours: true
+  cluster_palette: tab20
+  export_prism: true
+06_statistical_analysis:
+  enabled: true
+  condition_column: condition
+  reference_group: Baseline_Pre_Vaccination
+  target_group: Post_Vaccine_Dose_3
+  da_test_method: auto
+  ds_test_method: auto
+  fdr_threshold: 0.05
+  log2fc_threshold: 1.0
+  stats_granularity: populations
+  generate_abundance_boxplots: true
+  generate_volcano_plot: true
+  generate_forest_plot: true
+  generate_ds_heatmap: true
+exports:
+  enabled: true
+  export_augmented_fcs: true
+  export_flowjo_wsp: true
+  export_gating_ml: true
+  generate_miflowcyt_report: true
+output:
+  output_dir: outputs/config_run/conventional/quintelier_2023_cytonorm_meso
+  timestamp_dir: false
+  overwrite: true

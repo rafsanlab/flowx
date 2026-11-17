@@ -1,0 +1,9 @@
+{
+  "title": "OMIP-120: A 22-Marker Spectral Flow Cytometry Panel for the Characterization of Major Immune Populations in Murine Bone Marrow and Osteosarcoma Tissue",
+  "doi": "10.5281/zenodo.14513596",
+  "citation": "Foderaro et al., Cytometry Part A 2026;109:317-349 (OMIP-120; DOI: 10.1002/cyto.a.70034)",
+  "cytometer": "Cytek Aurora 5-laser (UV-V-B-YG-R, 64 APD channels)",
+  "biology": "Murine primary osteosarcoma tumor, bone marrow, and spleen leukocytes",
+  "parameters": "22 markers across 5 lasers with tissue-specific unstained baselines and raw/unmixed pairs",
+  "af_strategy": "Multi-tissue autofluorescence extraction across tumor, spleen, and marrow"
+}

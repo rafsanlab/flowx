@@ -1,0 +1,9 @@
+{
+  "title": "Clinical human ICU patient PBMC immunophenotyping cohort",
+  "doi": "10.5281/zenodo.22079206",
+  "citation": "Kreutmair et al., Cell Reports Medicine / Critical Care 2026",
+  "cytometer": "Cytek Aurora 5-laser (UV-V-B-YG-R, 64 APD channels)",
+  "biology": "Human PBMCs from critically ill, mechanically ventilated ICU patients",
+  "parameters": "39-color deep immunophenotyping panel across 5 lasers",
+  "af_strategy": "SpectroFlo spectral unmixing with donor PBMC autofluorescence extraction"
+}

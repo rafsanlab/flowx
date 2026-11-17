@@ -1,0 +1,70 @@
+# ==============================================================================
+# Flow Cytometry Pipeline - Core Python Dependencies (100% Permissive Licenses)
+# Suitable for Dual-Licensing (e.g. PolyForm Noncommercial + Commercial Enterprise)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Core Flow Cytometry & Data Parsing
+# ------------------------------------------------------------------------------
+# License: BSD 3-Clause (Permissive)
+FlowKit>=1.3.0
+
+# License: BSD 3-Clause (Permissive)
+FlowUtils>=1.2.0
+
+# License: MIT (Permissive)
+fcsparser>=0.2.4
+
+# ------------------------------------------------------------------------------
+# Numerical & Scientific Computing
+# ------------------------------------------------------------------------------
+# License: BSD 3-Clause (Permissive)
+numpy>=1.24.0
+
+# License: BSD 3-Clause (Permissive)
+pandas>=2.0.0
+
+# License: BSD 3-Clause (Permissive)
+scipy>=1.10.0
+
+# ------------------------------------------------------------------------------
+# Machine Learning & Unsupervised Clustering (MiniSom SOM & GMM QC)
+# ------------------------------------------------------------------------------
+# License: BSD 3-Clause (Permissive)
+scikit-learn>=1.3.0
+
+# License: MIT (Permissive)
+MiniSom>=2.3.0
+
+# License: BSD 3-Clause (Permissive)
+umap-learn>=0.5.0
+
+# Note: PhenoGraph is an optional extension with GPL-licensed dependencies.
+# To install optional community clustering, see: requirements-optional.txt
+
+# ------------------------------------------------------------------------------
+# Visualization & Plotting
+# ------------------------------------------------------------------------------
+# License: PSF-based (Python Software Foundation License / BSD-compatible, Permissive)
+matplotlib>=3.7.0
+
+# License: BSD 3-Clause (Permissive)
+seaborn>=0.12.0
+
+# ------------------------------------------------------------------------------
+# Configuration & I/O
+# ------------------------------------------------------------------------------
+# License: MIT (Permissive)
+PyYAML>=6.0
+
+# License: MIT (Permissive) - Terminal UI, Rich Aesthetics & Progress Bars
+rich>=13.0.0
+
+# License: MPL-2.0 / MIT (Permissive)
+tqdm>=4.60.0
+
+# ------------------------------------------------------------------------------
+# Testing & Quality Assurance
+# ------------------------------------------------------------------------------
+# License: MIT (Permissive)
+pytest>=7.0.0

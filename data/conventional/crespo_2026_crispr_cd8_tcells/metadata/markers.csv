@@ -1,0 +1,22 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+FSC-A,FSC-A,Scatter,NA,scatter,All Intact Events,FCS_$P1N
+FSC-H,FSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P2N
+FSC-W,FSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P3N
+SSC-A,SSC-A,Scatter,NA,scatter,Internal Granularity; Lymphocytes,FCS_$P4N
+SSC-H,SSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P5N
+SSC-W,SSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P6N
+FITC-A,GFP,FITC,Endogenous / Retroviral Cas9-eGFP,functional,Transduced OT-I T Cells,FCS_$P7N/$P7S + MIFlowCyt_metadata.md
+PerCP-Cy5-5-A,PerCP-Cy5-5-A,PerCP-Cy5.5,NA,unused,Unused Detector,FCS_$P8N
+BV421-A,CD44,BV421,Not specified in FCS or publication,functional,Memory / Effector T Cells,FCS_$P9N/$P9S + MIFlowCyt_metadata.md
+BV510-A,Live/Dead,BV510,Not specified in FCS or publication,viability,Viable Cells (Dead Cell Exclusion),FCS_$P10N/$P10S + MIFlowCyt_metadata.md
+BV605-A,TIM-3,BV605,Not specified in FCS or publication,functional,Terminal Exhaustion (Tex Marker),FCS_$P11N/$P11S + MIFlowCyt_metadata.md
+BV650-A,Thy1.1,BV650,Not specified in FCS or publication,lineage,Transferred Congenic Marker (CD90.1),FCS_$P12N/$P12S + MIFlowCyt_metadata.md
+BV711-A,CD8,BV711,Not specified in FCS or publication,lineage,Cytotoxic T Cells (CD8+),FCS_$P13N/$P13S + MIFlowCyt_metadata.md
+APC-A,SLAMF6,APC,Not specified in FCS or publication,functional,Progenitor Exhaustion (Tpex Marker / Ly108),FCS_$P14N/$P14S + MIFlowCyt_metadata.md
+APC-Cy7-A,PD-1,APC-Cy7,Not specified in FCS or publication,functional,T Cell Activation / Exhaustion Checkpoint,FCS_$P15N/$P15S + MIFlowCyt_metadata.md
+PE-Texas Red-A,CD45.1,PE-Texas Red,Not specified in FCS or publication,lineage,Transferred OT-I Congenic Marker,FCS_$P16N/$P16S + MIFlowCyt_metadata.md
+PE-Cy5-A,PE-Cy5-A,PE-Cy5,NA,unused,Unused Detector,FCS_$P17N
+PE-Cy7-A,PE-Cy7-A,PE-Cy7,NA,unused,Unused Detector,FCS_$P18N
+PE-A,TOX,PE,Not specified in FCS or publication,functional,T Cell Exhaustion Master Transcription Factor,FCS_$P19N/$P19S + MIFlowCyt_metadata.md
+Time,Time,Time,NA,time,Fluidics Acquisition Stability QC,FCS_$P20N
+

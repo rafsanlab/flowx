@@ -1,0 +1,3 @@
+sample_id,filename,relative_path,condition,batch_id,acquisition_date,acquisition_time,cytometer,is_control,total_events,provenance_source
+MB066_ML_Mix,MB066_ML_Mix.fcs,raw/samples/MB066_ML_Mix.fcs,Mucosal_Lamina_Propria,2026-04-13_Cytek_Aurora-Evo,2026-04-13,18:57:40,Cytek_Aurora-Evo,false,1000000,FCS $FIL & DOI:10.5281/zenodo.21643327
+MB066_TIL_Mix,MB066_TIL_Mix.fcs,raw/samples/MB066_TIL_Mix.fcs,Tumor_Infiltrating_Lymphocytes,2026-04-13_Cytek_Aurora-Evo,2026-04-13,19:01:42,Cytek_Aurora-Evo,false,1000000,FCS $FIL & DOI:10.5281/zenodo.21643327

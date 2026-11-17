@@ -1,0 +1,5 @@
+sample_id,filename,relative_path,condition,batch_id,acquisition_date,acquisition_time,cytometer,is_control,total_events,provenance_source
+B02_tcu2_CD45+CD14-,B02_tcu2_CD45+CD14-.fcs,raw/samples/B02_tcu2_CD45+CD14-.fcs,Unstimulated_PBMC,2022-03-17_Cytek_Aurora,2022-03-17,21:23:48,Cytek_Aurora,false,430717,FCS $TEXT & dataset_manifest.json & DOI:10.5281/zenodo.15388817
+B03_tcs3_CD45+CD14-,B03_tcs3_CD45+CD14-.fcs,raw/samples/B03_tcs3_CD45+CD14-.fcs,Stimulated_PBMC,2022-04-02_Cytek_Aurora,2022-04-02,14:44:44,Cytek_Aurora,false,432990,FCS $TEXT & dataset_manifest.json & DOI:10.5281/zenodo.15388817
+B03_tcu1_CD45+CD14-,B03_tcu1_CD45+CD14-.fcs,raw/samples/B03_tcu1_CD45+CD14-.fcs,Unstimulated_PBMC,2022-04-02_Cytek_Aurora,2022-04-02,14:49:05,Cytek_Aurora,false,537302,FCS $TEXT & dataset_manifest.json & DOI:10.5281/zenodo.15388817
+B04_tcs3_CD45+CD14-,B04_tcs3_CD45+CD14-.fcs,raw/samples/B04_tcs3_CD45+CD14-.fcs,Stimulated_PBMC,2022-04-14_Cytek_Aurora,2022-04-14,18:19:42,Cytek_Aurora,false,392303,FCS $TEXT & dataset_manifest.json & DOI:10.5281/zenodo.15388817

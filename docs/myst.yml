@@ -1,0 +1,91 @@
+version: 1
+project:
+  id: flowx-docs
+  title: FlowX Documentation
+  subtitle: Version 1.0.0
+  description: Diátaxis Documentation for FlowX Flow & Spectral Cytometry Analysis
+  authors:
+    - name: FlowX Developers
+  bibliography:
+    - myst.doi.bib
+  toc:
+    - file: README.md
+      title: Overview
+    - title: 1. Tutorials (Executable Notebooks)
+      children:
+        - file: tutorials/01_quickstart_cli_and_config.ipynb
+          title: "01. Quickstart: PBMC CLI & Config"
+        - file: tutorials/02_conventional_pbmc_cohort_walkthrough.ipynb
+          title: "02. Conventional PBMC Cohort Walkthrough"
+        - file: tutorials/03_spectral_pbmc_cohort_walkthrough.ipynb
+          title: "03. Spectral 32-Color PBMC Cohort"
+        - file: tutorials/04_raw_spectral_unmixing_complement.ipynb
+          title: "04. Raw 64-Channel Spectral Unmixing"
+    - title: 2. How-To Guides
+      children:
+        - file: how-to/01_curate_metadata_and_auto_roles.md
+          title: "01. Curate Metadata & Auto-Resolve Roles"
+        - file: how-to/02_preflight_inspection_and_harmonization.md
+          title: "02. Preflight Inspection & Harmonization"
+        - file: how-to/03_time_qc_and_control_salvage.md
+          title: "03. Time QC & Control Salvage"
+        - file: how-to/04_conventional_compensation_and_voltages.md
+          title: "04. Conventional Compensation & Voltages"
+        - file: how-to/05_spectral_unmixing_and_autofluorescence.md
+          title: "05. Spectral Unmixing & Autofluorescence"
+        - file: how-to/06_tune_cleanup_gate_looseness.md
+          title: "06. Tune Cleanup Gate Looseness"
+        - file: how-to/07_batch_assessment_and_normalization.md
+          title: "07. Batch Assessment & Normalization"
+        - file: how-to/08_population_discovery_and_annotation.md
+          title: "08. Population Discovery & Annotation"
+        - file: how-to/09_cohort_statistical_analysis.md
+          title: "09. Cohort Statistical Analysis"
+        - file: how-to/10_export_gating_ml_and_miflowcyt.md
+          title: "10. Export Gating-ML & MIFlowCyt"
+        - file: how-to/11_manual_hierarchical_gating.md
+          title: "11. Manual & Hierarchical Gating"
+    - title: 3. Reference
+      children:
+        - file: reference/01_cli_reference.md
+          title: "01. CLI Command Reference"
+        - file: reference/02_yaml_config_schema.md
+          title: "02. YAML Configuration Schema"
+        - file: reference/03_metadata_csv_specifications.md
+          title: "03. Metadata CSV Specifications"
+        - file: reference/04_python_api_and_step_runners.md
+          title: "04. Python API & Step Runners"
+        - file: reference/05_output_hierarchy_and_schemas.md
+          title: "05. Output Hierarchy & Table Schemas"
+        - file: reference/06_datasets_catalog.md
+          title: "06. Benchmark Datasets & Config Catalog"
+        - file: reference/07_benchmarks_and_validation.md
+          title: "07. Benchmarks & Validation Matrix"
+    - title: 4. Explanation
+      children:
+        - file: explanation/01_unified_step_architecture.md
+          title: "01. Unified Step Architecture & Orchestration"
+        - file: explanation/02_time_qc_mathematics.md
+          title: "02. Time QC Mathematics"
+        - file: explanation/03_compensation_and_spectral_deconvolution.md
+          title: "03. Compensation & Spectral Deconvolution"
+        - file: explanation/04_scaling_and_cleanup_gating_math.md
+          title: "04. Scale Transformation & Cleanup Gating Math"
+        - file: explanation/05_batch_effect_and_normalization_math.md
+          title: "05. Batch Effect & Normalization Math"
+        - file: explanation/06_clustering_manifolds_and_annotation_math.md
+          title: "06. Clustering, Manifolds & Annotation Math"
+        - file: explanation/07_statistical_testing_and_power_theory.md
+          title: "07. Statistical Testing & Power Theory"
+        - file: explanation/08_licensing_and_cleanroom_governance.md
+          title: "08. Licensing & Clean-Room Governance"
+site:
+  template: book-theme
+  title: FlowX Documentation
+  subtitle: Version 1.0.0
+  options:
+    logo: images/flowx-logo.svg
+    logo_dark: images/flowx-logo-dark.svg
+    logo_text: FlowX Documentation v1.0.0
+  parts:
+    primary_sidebar_footer: FlowX Documentation

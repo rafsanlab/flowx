@@ -1,0 +1,31 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+FSC-H,FSC-H,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P1N
+SSC-H,SSC-H,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P2N
+FSC-A,FSC-A,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P3N
+SSC-A,SSC-A,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P4N
+B525-A,Puromycin,AF488,Not specified in FCS or publication,functional,Metabolically Active Immune Cells,FCS $P5S; Zenodo 10.5281/zenodo.15350040
+B615-A,CD20,NFB 610_70S,Not specified in FCS or publication,lineage,B Cells,FCS $P6S; Zenodo 10.5281/zenodo.15350040
+B695-A,FoxP3,BB700,Not specified in FCS or publication,lineage;functional,Regulatory T Cells,FCS $P7S; Zenodo 10.5281/zenodo.15350040
+B725-A,CD19,PerCP_eFluor 710,Not specified in FCS or publication,lineage,B Cells,FCS $P8S; Zenodo 10.5281/zenodo.15350040
+R667-A,CD127,JF 646,Not specified in FCS or publication,lineage;functional,T Cells; Innate Lymphoid Cells,FCS $P9S; Zenodo 10.5281/zenodo.15350040
+R725-A,CCR6,AF700,Not specified in FCS or publication,lineage;functional,Th17 Cells; B Cells,FCS $P10S; Zenodo 10.5281/zenodo.15350040
+R780-A,CD45RA,APC_Cy7,Not specified in FCS or publication,lineage;functional,Naive T Cells; Effector CD45RA+ T Cells,FCS $P11S; Zenodo 10.5281/zenodo.15350040
+UV445-A,Viability,BUV395,Not specified in FCS or publication,viability,Dead Cells,FCS $P12S; Zenodo 10.5281/zenodo.15350040
+UV525-A,CD27,BUV496,Not specified in FCS or publication,lineage;functional,Memory B Cells; T Cells,FCS $P13S; Zenodo 10.5281/zenodo.15350040
+UV586-A,CXCR5,BUV563,Not specified in FCS or publication,lineage;functional,Follicular Helper T Cells; B Cells,FCS $P14S; Zenodo 10.5281/zenodo.15350040
+UV615-A,CD56,BUV615,Not specified in FCS or publication,lineage,NK Cells; NKT Cells,FCS $P15S; Zenodo 10.5281/zenodo.15350040
+UV667-A,CRTh2,BUV661,Not specified in FCS or publication,lineage;functional,Th2 Cells; Eosinophils; Basophils,FCS $P16S; Zenodo 10.5281/zenodo.15350040
+UV725-A,IgD,BUV737,Not specified in FCS or publication,lineage;functional,Naive B Cells,FCS $P17S; Zenodo 10.5281/zenodo.15350040
+V445-A,CD25,BV421,Not specified in FCS or publication,lineage;functional,Activated T Cells; Regulatory T Cells,FCS $P18S; Zenodo 10.5281/zenodo.15350040
+V586-A,CD3,BV570,Not specified in FCS or publication,lineage,T Cells,FCS $P19S; Zenodo 10.5281/zenodo.15350040
+V615-A,CD16,BV605,Not specified in FCS or publication,lineage;functional,NK Cells; Monocytes; Neutrophils,FCS $P20S; Zenodo 10.5281/zenodo.15350040
+V667-A,CD28,BV650,Not specified in FCS or publication,lineage;functional,T Cells,FCS $P21S; Zenodo 10.5281/zenodo.15350040
+V725-A,CD14,BV711,Not specified in FCS or publication,lineage,Monocytes; Macrophages,FCS $P22S; Zenodo 10.5281/zenodo.15350040
+V780-A,CCR7,BV786,Not specified in FCS or publication,lineage;functional,Central Memory T Cells; Naive T Cells,FCS $P23S; Zenodo 10.5281/zenodo.15350040
+Y586-A,CD24,PE,Not specified in FCS or publication,lineage;functional,B Cells; Granulocytes,FCS $P24S; Zenodo 10.5281/zenodo.15350040
+Y615-A,CXCR3,PE_Dazzle 594,Not specified in FCS or publication,lineage;functional,Th1 Cells; Effector T Cells,FCS $P25S; Zenodo 10.5281/zenodo.15350040
+Y667-A,CD38,PE_Cy5,Not specified in FCS or publication,lineage;functional,Activated T Cells; Plasma Cells,FCS $P26S; Zenodo 10.5281/zenodo.15350040
+Y725-A,CD4,PE_AF700,Not specified in FCS or publication,lineage,T Helper Cells,FCS $P27S; Zenodo 10.5281/zenodo.15350040
+Y780-A,TCRgd,PE_Cy7,Not specified in FCS or publication,lineage,Gamma-Delta T Cells,FCS $P28S; Zenodo 10.5281/zenodo.15350040
+Width,Width,Scatter,Not specified in FCS or publication,scatter,All Events,FCS $P29N
+Time,Time,Time,Not specified in FCS or publication,time,All Events,FCS $P30N

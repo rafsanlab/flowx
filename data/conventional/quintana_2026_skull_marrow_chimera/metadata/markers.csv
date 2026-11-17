@@ -1,0 +1,24 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+FSC-A,FSC-A,Scatter,NA,scatter,All Intact Events,FCS_$P1N
+FSC-H,FSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P2N
+FSC-W,FSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P3N
+SSC-A,SSC-A,Scatter,NA,scatter,Internal Granularity,FCS_$P4N
+SSC-H,SSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P5N
+SSC-W,SSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P6N
+B 530/30-A,CD45.2,FITC,Not specified in FCS or publication,lineage,Host Congenic Leukocytes,FCS_$P7N/$P7S + Quintana et al.
+B 710/50-A,Ly6G,PerCP-Cy5.5,Not specified in FCS or publication,lineage,Neutrophils / Granulocytes,FCS_$P8N/$P8S + Quintana et al.
+R 670/14-A,CD4,APC,Not specified in FCS or publication,lineage,Helper T Cells (CD4+),FCS_$P9N/$P9S + Quintana et al.
+R 730/45-A,MHC-II,Alexa Fluor 700,Not specified in FCS or publication,lineage;functional,Antigen Presenting Cells (B Cells/DCs/Mac),FCS_$P10N/$P10S + Quintana et al.
+R 780/60-A,CD3,APC-Cy7,Not specified in FCS or publication,lineage,Pan-T Cells,FCS_$P11N/$P11S + Quintana et al.
+V 450/50-A,CD19,BV421,Not specified in FCS or publication,lineage,Pan-B Cells,FCS_$P12N/$P12S + Quintana et al.
+V 525/50-A,CD45 iv,BV510,Not specified in FCS or publication,functional,Intravascular vs Parenchymal Discrimination,FCS_$P13N/$P13S + Quintana et al.
+V 610/20-A,F4/80,BV605,Not specified in FCS or publication,lineage,Macrophages / Microglia,FCS_$P14N/$P14S + Quintana et al.
+V 660/20-A,CD45.1,BV650,Not specified in FCS or publication,lineage,Donor Congenic Leukocytes,FCS_$P15N/$P15S + Quintana et al.
+V 710/50-A,CD11c,BV711,Not specified in FCS or publication,lineage,Dendritic Cells,FCS_$P16N/$P16S + Quintana et al.
+V 780/60-A,Siglec-F,BV786,Not specified in FCS or publication,lineage,Eosinophils / Alveolar Macrophages,FCS_$P17N/$P17S + Quintana et al.
+U 450/50-A,Live/Dead,BUV395,Not specified in FCS or publication,viability,Viable Cells (Dead Cell Exclusion),FCS_$P18N/$P18S + Quintana et al.
+Y 586/15-A,CX3CR1,PE,Not specified in FCS or publication,functional,Fractalkine Receptor; Monocyte/Mac Subsets,FCS_$P19N/$P19S + Quintana et al.
+Y 610/20-A,CD11b,PE-CF594,Not specified in FCS or publication,lineage,Myeloid Cells,FCS_$P20N/$P20S + Quintana et al.
+Y 780/60-A,Ly6C,PE-Cy7,Not specified in FCS or publication,functional,Monocyte Subsets (Classical vs Non-classical),FCS_$P21N/$P21S + Quintana et al.
+Time,Time,Time,NA,time,Fluidics Acquisition Stability QC,FCS_$P22N
+

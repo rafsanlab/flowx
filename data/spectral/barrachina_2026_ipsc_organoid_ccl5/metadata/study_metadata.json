@@ -1,0 +1,9 @@
+{
+  "title": "Human iPSC-derived bone marrow organoids under CCL5 exposure",
+  "doi": "10.5281/zenodo.22783306",
+  "citation": "Barrachina et al., Stem Cell Reports 2026;21(8):103014",
+  "cytometer": "Cytek Aurora 5-laser (UV-V-B-YG-R, 64 APD channels)",
+  "biology": "Human iPSC bone marrow organoids (Vehicle vs CCL5 chemokine treated)",
+  "parameters": "13-color hematopoietic & stromal panel with reference beads, unstained cells & FMOs",
+  "af_strategy": "Organoid baseline cellular autofluorescence extraction"
+}

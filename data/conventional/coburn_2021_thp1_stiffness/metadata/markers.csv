@@ -1,0 +1,13 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+Time,Time,Time,NA,time,Fluidics Acquisition Stability QC,FCS_$P1N
+FSC-A,FSC-A,Scatter,NA,scatter,All Intact Events,FCS_$P2N
+FSC-H,FSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P3N
+FSC-W,FSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P4N
+SSC-A,SSC-A,Scatter,NA,scatter,Macrophage Internal Granularity,FCS_$P5N
+SSC-H,SSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P6N
+SSC-W,SSC-W,Scatter,NA,scatter,Singlets vs Doublets (Published Fig 2.11),FCS_$P7N
+Horizon Brilliant Blue 515-A,CD33,BD Horizon BB515,BD #564588 (WM53),lineage,Myeloid Lineage; Basal Macrophages (THP-1 Mphi),Methods 2.11 + BD #564588 + Tube 01gx 33 MFI
+BV605-A,CD11b,BD Horizon BV605,BD #562721 (ICRF44),lineage;functional,Myeloid Cells; Differentiated Macrophages (THP-1 Mphi),Methods 2.11 + BD #562721 + Tube 01gx 11b MFI
+PE-A,CD80,R-PE,BD #560925 (L307.4),functional,Pro-Inflammatory M1 Macrophages,Methods 2.11 + BD #560925 + Table 2 DOI:10.1039/D1BM00201A
+PE-CF594-A,CD206,BD Horizon PE-CF594,BD #564063 (19.2),functional,Anti-Inflammatory M2 Macrophages,Methods 2.11 + BD #564063 + Table 2 DOI:10.1039/D1BM00201A
+

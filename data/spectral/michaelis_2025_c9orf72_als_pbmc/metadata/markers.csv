@@ -1,0 +1,31 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+Time,Time,Time,Not specified in FCS or publication,time,All Events,FCS $P1N
+SSC-H,SSC-H,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P2N
+SSC-A,SSC-A,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P3N
+FSC-H,FSC-H,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P4N
+FSC-A,FSC-A,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P5N
+SSC-B-H,SSC-B-H,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P6N
+SSC-B-A,SSC-B-A,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P7N
+BUV395-A,CCR6,BUV395,BD (11A),lineage;functional,Th17 Cells; B Cells,Nature 2025 & FlowJo WSP
+BUV496-A,CD8,BUV496,BD Biosciences (RPA-T8),lineage,Cytotoxic T Cells,Nature 2025 & FlowJo WSP
+BUV563-A,CD20,BUV563,BD (2H7),lineage,B Cells,Nature 2025 & FlowJo WSP
+BUV805-A,CD3,BUV805,BD (UCHT1),lineage,T Cells,Nature 2025 & FlowJo WSP
+BV421-A,gdTCR,BV421,BD (11F2),lineage,Gamma-Delta T Cells,Nature 2025 & FlowJo WSP
+BV480-A,CD14,BV480,BD (M5E2),lineage,Monocytes; Macrophages,Nature 2025 & FlowJo WSP
+eFluor 506-A,Viability,eFluor 506,Thermo Fisher Scientific,viability,Dead Cells,Nature 2025 & FlowJo WSP
+BV570-A,CD45RA,BV570,BioLegend (HI100),lineage;functional,Naive T Cells; Effector CD45RA+ T Cells,Nature 2025 & FlowJo WSP
+BV605-A,CD19,BV605,BioLegend (HIB19),lineage,B Cells,Nature 2025 & FlowJo WSP
+BV650-A,CD161,BV650,BD (DX12),lineage;functional,Th17 Cells; NK Cells,Nature 2025 & FlowJo WSP
+BV711-A,CD25,BV711,BioLegend (M-A251),lineage;functional,Regulatory T Cells; Activated T Cells,Nature 2025 & FlowJo WSP
+BV785-A,CCR7,BV785,BioLegend (G043H7),lineage;functional,Central Memory T Cells; Naive T Cells,Nature 2025 & FlowJo WSP
+FITC-A,CD26,FITC,BioLegend (BA5b),lineage;functional,T Cells; Activated T Cells,Nature 2025 & FlowJo WSP
+PerCP-Cy5.5-A,CD38,PerCP-Cy5.5,BD (HIT2),lineage;functional,Activated T Cells; Plasma Cells,Nature 2025 & FlowJo WSP
+PE-A,CXCR3,PE,BioLegend (G025H7),lineage;functional,Th1 Cells; Effector T Cells,Nature 2025 & FlowJo WSP
+PE-Dazzle594-A,CD45,PE-Dazzle594,BioLegend (HI30),lineage,Total Leukocytes,Nature 2025 & FlowJo WSP
+PE-Cy5-A,CD16,PE-Cy5,Thermo Fisher Scientific (3G8),lineage;functional,NK Cells; Monocytes,Nature 2025 & FlowJo WSP
+PE-Fire 700-A,CD127,PE-Fire 700,BioLegend (A019D5),lineage;functional,T Cells; Innate Lymphoid Cells,Nature 2025 & FlowJo WSP
+PE-Cy7-A,CCR4,PE-Cy7,BD (IG1),lineage;functional,Th2 Cells; Regulatory T Cells,Nature 2025 & FlowJo WSP
+APC-A,CD56,APC,BioLegend (5.1H11),lineage,NK Cells; NKT Cells,Nature 2025 & FlowJo WSP
+Alexa Fluor 700-A,HLA-DR,Alexa Fluor 700,Thermo Fisher Scientific (LN3),lineage;functional,Antigen-Presenting Cells; Activated T Cells,Nature 2025 & FlowJo WSP
+APC-eFluor 780-A,CD4,APC-eFluor 780,Thermo Fisher Scientific (RPA-T4),lineage,T Helper Cells,Nature 2025 & FlowJo WSP
+AF-A,Autofluorescence,Autofluorescence,Not specified in FCS or publication,autofluorescence,Autofluorescent Cellular Background,FCS $P30N

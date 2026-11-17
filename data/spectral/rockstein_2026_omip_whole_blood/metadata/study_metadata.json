@@ -1,0 +1,9 @@
+{
+  "title": "OMIP: A 41-colour spectral flow cytometry panel for human immune cell composition in whole blood",
+  "doi": "10.5281/zenodo.23950826",
+  "citation": "Rockstein et al., Cytometry Part A (OMIP Collection)",
+  "cytometer": "Cytek Aurora 5-laser (UV-V-B-YG-R, 64 APD channels)",
+  "biology": "Human whole blood immunophenotyping across healthy donors and patient samples",
+  "parameters": "41 colors spanning 5 lasers + donor-matched cellular autofluorescence baselines",
+  "af_strategy": "Donor-specific baseline autofluorescence subtraction"
+}

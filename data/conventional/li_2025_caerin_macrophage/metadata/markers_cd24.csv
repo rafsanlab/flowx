@@ -1,0 +1,14 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+FSC-A,FSC-A,Scatter,NA,scatter,All Intact Events,FCS_$P1N
+FSC-H,FSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P2N
+SSC-A,SSC-A,Scatter,NA,scatter,Macrophage Granularity,FCS_$P3N
+SSC-H,SSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P4N
+FITC-A,CD45.2,FITC,eBioscience #11-0454-85 (104),lineage,Pan-Leukocytes,FCS_$P5N + Table 1 DOI:10.1038/s41598-025-87687-0
+PE-A,F4/80,PE,eBioscience #12-4801-82 (BM8),lineage,Tumor-Associated Macrophages,FCS_$P6N + Table 1 DOI:10.1038/s41598-025-87687-0
+PerCP-Cy5-5-A,CD11b,PerCP-Cy5.5,eBioscience #45-0112-82 (M1/70),lineage,Myeloid Cells; Macrophages,FCS_$P7N + Table 1 DOI:10.1038/s41598-025-87687-0
+PE-Cy7-A,CD11c,PE-Cy7,BD #558079 (HL3),lineage;functional,Dendritic Cells; Macrophage Subsets,FCS_$P8N + Table 1 DOI:10.1038/s41598-025-87687-0
+APC-A,CD24,APC,Biolegend #101824 (M1/69),lineage;functional,CD24 Don't-Eat-Me Pathway; Tumor-Associated Macrophages,FCS_$P9N + Table 1 DOI:10.1038/s41598-025-87687-0
+APC-Cy7-A,CD3e,APC-Cy7,BD #557596 (145-2C11),dump,T Cells (Lineage Exclusion Dump Channel),FCS_$P10N + Table 1 DOI:10.1038/s41598-025-87687-0
+BV421-A,Ly6C,BV421,BD #562727 (AL-21),lineage;functional,Inflammatory Macrophages (M1 vs Resident),FCS_$P11N + Table 1 DOI:10.1038/s41598-025-87687-0
+BV510-A,Live/Dead_FVS510,BD Horizon BV510,BD #564406,viability,Viable Cells (Dead Cell Exclusion),FCS_$P12N + Table 1 DOI:10.1038/s41598-025-87687-0
+Time,Time,Time,NA,time,Fluidics Acquisition Stability QC,FCS_$P13N

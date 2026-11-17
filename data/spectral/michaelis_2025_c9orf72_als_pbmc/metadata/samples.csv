@@ -1,0 +1,9 @@
+sample_id,filename,relative_path,condition,batch_id,acquisition_date,acquisition_time,cytometer,is_control,total_events,provenance_source
+A1 6936 ALS,A1 6936 ALS.fcs,raw/samples/A1 6936 ALS.fcs,ALS_Patient,2024-05-16_Cytek_Aurora,2024-05-16,10:48:18,Cytek_Aurora,false,384320,FCS $TEXT & dataset_manifest.json & Nature 2025 (DOI:10.5281/zenodo.16749283)
+A3 8830 ALS,A3 8830 ALS.fcs,raw/samples/A3 8830 ALS.fcs,ALS_Patient,2024-05-16_Cytek_Aurora,2024-05-16,10:58:37,Cytek_Aurora,false,182040,FCS $TEXT & dataset_manifest.json & Nature 2025 (DOI:10.5281/zenodo.16749283)
+A4 8710 ALS,A4 8710 ALS.fcs,raw/samples/A4 8710 ALS.fcs,ALS_Patient,2024-05-16_Cytek_Aurora,2024-05-16,11:00:32,Cytek_Aurora,false,380280,FCS $TEXT & dataset_manifest.json & Nature 2025 (DOI:10.5281/zenodo.16749283)
+A5 6807 HC,A5 6807 HC.fcs,raw/samples/A5 6807 HC.fcs,Healthy_Control,2024-04-08_Cytek_Aurora,2024-04-08,11:36:32,Cytek_Aurora,false,389744,FCS $TEXT & dataset_manifest.json & Nature 2025 (DOI:10.5281/zenodo.16749283)
+A6 4191 HC,A6 4191 HC.fcs,raw/samples/A6 4191 HC.fcs,Healthy_Control,2024-05-09_Cytek_Aurora,2024-05-09,12:06:22,Cytek_Aurora,false,288792,FCS $TEXT & dataset_manifest.json & Nature 2025 (DOI:10.5281/zenodo.16749283)
+A8 3592 HC,A8 3592 HC.fcs,raw/samples/A8 3592 HC.fcs,Healthy_Control,2023-11-27_Cytek_Aurora,2023-11-27,11:44:22,Cytek_Aurora,false,667440,FCS $TEXT & dataset_manifest.json & Nature 2025 (DOI:10.5281/zenodo.16749283)
+A8 4660 HC,A8 4660 HC.fcs,raw/samples/A8 4660 HC.fcs,Healthy_Control,2024-04-08_Cytek_Aurora,2024-04-08,11:41:22,Cytek_Aurora,false,414704,FCS $TEXT & dataset_manifest.json & Nature 2025 (DOI:10.5281/zenodo.16749283)
+A10 7101 HC,A10 7101 HC.fcs,raw/samples/A10 7101 HC.fcs,Healthy_Control,2023-11-27_Cytek_Aurora,2023-11-27,11:46:51,Cytek_Aurora,false,765368,FCS $TEXT & dataset_manifest.json & Nature 2025 (DOI:10.5281/zenodo.16749283)

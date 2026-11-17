@@ -1,0 +1,24 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+Time,Time,Time,NA,time,Fluidics Acquisition Stability QC,FCS_$P1N
+FSC-A,FSC-A,Scatter,NA,scatter,All Intact Events,FCS_$P2N
+FSC-H,FSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P3N
+FSC-W,FSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P4N
+SSC-A,SSC-A,Scatter,NA,scatter,Internal Granularity; Lymphocytes,FCS_$P5N
+SSC-H,SSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P6N
+SSC-W,SSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P7N
+PE-A,CD5,PE,Not specified in FCS or publication,lineage;functional,T Cells; B-1a B Cells,FCS_$P8N/$P8S
+PE-CF594-A,CD268,PE-CF594,Not specified in FCS or publication,functional,BAFF Receptor; Mature B Cells,FCS_$P9N/$P9S
+BB700-A,CD38,BB700,Not specified in FCS or publication,functional,Activated Lymphocytes; Plasmablasts,FCS_$P10N/$P10S
+PE-Cy7-A,IgD,PE-Cy7,Not specified in FCS or publication,functional,Naive Mature B Cells,FCS_$P11N/$P11S
+APC-A,PD1,APC,Not specified in FCS or publication,functional,Checkpoint Inhibitor; Exhausted/Activated T Cells,FCS_$P12N/$P12S
+Alexa 700-A,CD3,Alexa Fluor 700,Not specified in FCS or publication,lineage,Pan-T Cells,FCS_$P13N/$P13S
+BV421-A,CD27,BV421,Not specified in FCS or publication,functional,Memory B Cells; T Cells,FCS_$P14N/$P14S
+BV605-A,IgM,BV605,Not specified in FCS or publication,functional,Mature B Cells; B-Cell Receptor,FCS_$P15N/$P15S
+BV650-A,CD86,BV650,Not specified in FCS or publication,functional,Costimulatory Molecule; Activated APCs/B Cells,FCS_$P16N/$P16S
+BV711-A,CD24,BV711,Not specified in FCS or publication,functional,B-Cell Development; Transitional B Cells,FCS_$P17N/$P17S
+BV750-A,CD19,BV750,Not specified in FCS or publication,lineage,Pan-B Cells,FCS_$P18N/$P18S
+BV786-A,PDL1,BV786,Not specified in FCS or publication,functional,Immune Checkpoint Ligand,FCS_$P19N/$P19S
+BV480-A,Live dead,BV480,Not specified in FCS or publication,viability,Viable Cells (Dead Cell Exclusion),FCS_$P20N/$P20S
+BB515-A,KI67,BB515,Not specified in FCS or publication,functional,Cell Proliferation Marker,FCS_$P21N/$P21S
+Original_ID,Original_ID,Index,NA,index,Event Tracking ID,FCS_$P22N
+

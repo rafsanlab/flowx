@@ -1,0 +1,10 @@
+{
+  "title": "Virus-based IFNγ gene delivery and photodynamic therapy cooperate to remodel the tumor microenvironment and suppress breast cancer",
+  "doi": "10.1016/j.omton.2025.201124",
+  "zenodo_doi": "10.5281/zenodo.17457137",
+  "citation": "Korotkaja, K. et al., Molecular Therapy Oncology (2026) 34(1):201124 (Zenodo DOI: 10.5281/zenodo.17457137)",
+  "cytometer": "Cytek Aurora 5-laser (UV-V-B-YG-R, 64 APD channels)",
+  "biology": "Murine 4T1 breast cancer tumor-infiltrating immune cells",
+  "parameters": "18 colors across 5 lasers with reference beads & viability controls",
+  "af_strategy": "SpectroFlo unmixing with tissue autofluorescence extraction"
+}

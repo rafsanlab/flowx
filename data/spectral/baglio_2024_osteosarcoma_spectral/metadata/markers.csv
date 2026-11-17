@@ -1,0 +1,33 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+Time,Time,Time,Not specified in FCS or publication,time,All Events,FCS $P1N
+SSC-H,SSC-H,Scatter,Not specified in FCS or publication,scatter,Singlets vs Doublets,FCS $PnN (SSC-H)
+SSC-A,SSC-A,Scatter,Not specified in FCS or publication,scatter,All Intact Cells,FCS $PnN (SSC-A)
+FSC-H,FSC-H,Scatter,Not specified in FCS or publication,scatter,Singlets vs Doublets,FCS $PnN (FSC-H)
+FSC-A,FSC-A,Scatter,Not specified in FCS or publication,scatter,All Intact Cells,FCS $PnN (FSC-A)
+SSC-B-H,SSC-B-H,Scatter,Not specified in FCS or publication,scatter,Singlets vs Doublets,FCS $PnN (SSC-B-H)
+SSC-B-A,SSC-B-A,Scatter,Not specified in FCS or publication,scatter,Violet Side Scatter,FCS $PnN (SSC-B-A)
+LIVE DEAD Blue-A,Viability,LIVE/DEAD Fixable Blue,Not specified in FCS or publication,viability,Dead Cell Exclusion,FCS $PnN/$PnS (LIVE DEAD Blue-A / Viability)
+BUV563-A,Ly6G,BUV563,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage,Murine Neutrophils / Granulocytes,FCS $PnS (Ly6G) & OMIP-120
+BUV805-A,CD86,BUV805,"OMIP-120 (Table 4, Cytometry Part A 2026)",functional,Costimulatory Ligand; Activated APCs / M1 Macrophages,FCS $PnS (CD86) & OMIP-120
+BV421-A,PD1,BV421,"OMIP-120 (Table 4, Cytometry Part A 2026)",functional,Immune Checkpoint; Exhausted / Activated T Cells,FCS $PnS (PD1) & OMIP-120
+Pacific Blue-A,Ly6C,Pacific Blue,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage,Murine Inflammatory Monocytes / Myeloid Subsets,FCS $PnS (Ly6C) & OMIP-120
+BV480-A,CD8,BV480,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage,Cytotoxic T Cells (CD8b+),FCS $PnS (CD8b) & OMIP-120
+BV605-A,CTLA4,BV605,"OMIP-120 (Table 4, Cytometry Part A 2026)",functional,Inhibitory Checkpoint; Tregs / Activated T Cells,FCS $PnS (CTLA4) & OMIP-120
+BV650-A,NKp46,BV650,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage,Natural Killer Cells (NCR1),FCS $PnS (Nkp46) & OMIP-120
+BV711-A,HLA-DR,BV711,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage;functional,Antigen Presenting Cells (MHC-II),FCS $PnS (MHCII) & OMIP-120
+BV750-A,CD4,BV750,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage,Helper T Cells (CD4+),FCS $PnS (CD4) & OMIP-120
+BV785-A,CD11c,BV785,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage,Dendritic Cells,FCS $PnS (CD11c) & OMIP-120
+FITC-A,CD49b,FITC,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage,Natural Killer / NKT Cells (DX5),FCS $PnS (CD49b) & OMIP-120
+Spark Blue 550-A,CD19,Spark Blue 550,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage,B-Cell Lineage,FCS $PnS (CD19) & OMIP-120
+PE-A,FOXP3,PE,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage;functional,Regulatory T Cells (Tregs),FCS $PnS (FOXP3) & OMIP-120
+PE-Dazzle594-A,PDL1,PE-Dazzle594,"OMIP-120 (Table 4, Cytometry Part A 2026)",functional,Programmed Death-Ligand 1; Tumor / Myeloid Cells,FCS $PnS (PDL1) & OMIP-120
+PE-Cy5-A,CD69,PE-Cy5,"OMIP-120 (Table 4, Cytometry Part A 2026)",functional,Early Activation / Tissue Residency,FCS $PnS (CD69) & OMIP-120
+PerCP-Cy5.5-A,CD11b,PerCP-Cy5.5,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage,Pan-Myeloid Cells (Mac-1),FCS $PnS (CD11b) & OMIP-120
+PE-Cy7-A,CD3,PE-Cy7,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage,Pan-T Cells (TCR-beta),FCS $PnS (TCRb) & OMIP-120
+APC-A,CD206,APC,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage;functional,M2-like Tumor-Associated Macrophages (MRC1),FCS $PnS (CD206) & OMIP-120
+Alexa Fluor 700-A,CD45,Alexa Fluor 700,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage,Pan-Leukocytes,FCS $PnS (CD45) & OMIP-120
+APC-eFluor 780-A,TIM3,APC-eFluor 780,"OMIP-120 (Table 4, Cytometry Part A 2026)",functional,Inhibitory Receptor; Exhausted T / Myeloid Cells,FCS $PnS (TIM3) & OMIP-120
+APC-Fire 810-A,F4/80,APC-Fire 810,"OMIP-120 (Table 4, Cytometry Part A 2026)",lineage,Murine Macrophages,FCS $PnS (F480) & OMIP-120
+AF P1-A,AF P1-A,Autofluorescence,Not specified in FCS or publication,autofluorescence,Autofluorescence Extraction Channel 1,FCS $PnN (AF P1-A)
+AF P2-A,AF P2-A,Autofluorescence,Not specified in FCS or publication,autofluorescence,Autofluorescence Extraction Channel 2,FCS $PnN (AF P2-A)
+AF P3-A,AF P3-A,Autofluorescence,Not specified in FCS or publication,autofluorescence,Autofluorescence Extraction Channel 3,FCS $PnN (AF P3-A)

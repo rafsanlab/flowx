@@ -1,0 +1,72 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+Time,Time,Time,Not specified in FCS or publication,time,All Events,FCS $P1N
+UV1-A,UV1-A,Spectral_UV1-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV1-A); raw/controls/ reference beads
+UV2-A,UV2-A,Spectral_UV2-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV2-A); raw/controls/ reference beads
+UV3-A,UV3-A,Spectral_UV3-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV3-A); raw/controls/ reference beads
+UV4-A,UV4-A,Spectral_UV4-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV4-A); raw/controls/ reference beads
+UV5-A,UV5-A,Spectral_UV5-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV5-A); raw/controls/ reference beads
+UV6-A,UV6-A,Spectral_UV6-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV6-A); raw/controls/ reference beads
+UV7-A,UV7-A,Spectral_UV7-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV7-A); raw/controls/ reference beads
+UV8-A,UV8-A,Spectral_UV8-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV8-A); raw/controls/ reference beads
+UV9-A,UV9-A,Spectral_UV9-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV9-A); raw/controls/ reference beads
+UV10-A,UV10-A,Spectral_UV10-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV10-A); raw/controls/ reference beads
+UV11-A,UV11-A,Spectral_UV11-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV11-A); raw/controls/ reference beads
+UV12-A,UV12-A,Spectral_UV12-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV12-A); raw/controls/ reference beads
+UV13-A,UV13-A,Spectral_UV13-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV13-A); raw/controls/ reference beads
+UV14-A,UV14-A,Spectral_UV14-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV14-A); raw/controls/ reference beads
+UV15-A,UV15-A,Spectral_UV15-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV15-A); raw/controls/ reference beads
+UV16-A,UV16-A,Spectral_UV16-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (UV16-A); raw/controls/ reference beads
+SSC-H,SSC-H,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $PnN (SSC-H)
+SSC-A,SSC-A,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $PnN (SSC-A)
+V1-A,V1-A,Spectral_V1-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V1-A); raw/controls/ reference beads
+V2-A,V2-A,Spectral_V2-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V2-A); raw/controls/ reference beads
+V3-A,V3-A,Spectral_V3-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V3-A); raw/controls/ reference beads
+V4-A,V4-A,Spectral_V4-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V4-A); raw/controls/ reference beads
+V5-A,V5-A,Spectral_V5-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V5-A); raw/controls/ reference beads
+V6-A,V6-A,Spectral_V6-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V6-A); raw/controls/ reference beads
+V7-A,V7-A,Spectral_V7-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V7-A); raw/controls/ reference beads
+V8-A,V8-A,Spectral_V8-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V8-A); raw/controls/ reference beads
+V9-A,V9-A,Spectral_V9-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V9-A); raw/controls/ reference beads
+V10-A,V10-A,Spectral_V10-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V10-A); raw/controls/ reference beads
+V11-A,V11-A,Spectral_V11-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V11-A); raw/controls/ reference beads
+V12-A,V12-A,Spectral_V12-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V12-A); raw/controls/ reference beads
+V13-A,V13-A,Spectral_V13-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V13-A); raw/controls/ reference beads
+V14-A,V14-A,Spectral_V14-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V14-A); raw/controls/ reference beads
+V15-A,V15-A,Spectral_V15-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V15-A); raw/controls/ reference beads
+V16-A,V16-A,Spectral_V16-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (V16-A); raw/controls/ reference beads
+FSC-H,FSC-H,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $PnN (FSC-H)
+FSC-A,FSC-A,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $PnN (FSC-A)
+SSC-B-H,SSC-B-H,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $PnN (SSC-B-H)
+SSC-B-A,SSC-B-A,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $PnN (SSC-B-A)
+B1-A,B1-A,Spectral_B1-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B1-A); raw/controls/ reference beads
+B2-A,B2-A,Spectral_B2-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B2-A); raw/controls/ reference beads
+B3-A,B3-A,Spectral_B3-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B3-A); raw/controls/ reference beads
+B4-A,B4-A,Spectral_B4-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B4-A); raw/controls/ reference beads
+B5-A,B5-A,Spectral_B5-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B5-A); raw/controls/ reference beads
+B6-A,B6-A,Spectral_B6-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B6-A); raw/controls/ reference beads
+B7-A,B7-A,Spectral_B7-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B7-A); raw/controls/ reference beads
+B8-A,B8-A,Spectral_B8-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B8-A); raw/controls/ reference beads
+B9-A,B9-A,Spectral_B9-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B9-A); raw/controls/ reference beads
+B10-A,B10-A,Spectral_B10-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B10-A); raw/controls/ reference beads
+B11-A,B11-A,Spectral_B11-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B11-A); raw/controls/ reference beads
+B12-A,B12-A,Spectral_B12-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B12-A); raw/controls/ reference beads
+B13-A,B13-A,Spectral_B13-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B13-A); raw/controls/ reference beads
+B14-A,B14-A,Spectral_B14-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (B14-A); raw/controls/ reference beads
+YG1-A,YG1-A,Spectral_YG1-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (YG1-A); raw/controls/ reference beads
+YG2-A,YG2-A,Spectral_YG2-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (YG2-A); raw/controls/ reference beads
+YG3-A,YG3-A,Spectral_YG3-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (YG3-A); raw/controls/ reference beads
+YG4-A,YG4-A,Spectral_YG4-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (YG4-A); raw/controls/ reference beads
+YG5-A,YG5-A,Spectral_YG5-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (YG5-A); raw/controls/ reference beads
+YG6-A,YG6-A,Spectral_YG6-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (YG6-A); raw/controls/ reference beads
+YG7-A,YG7-A,Spectral_YG7-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (YG7-A); raw/controls/ reference beads
+YG8-A,YG8-A,Spectral_YG8-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (YG8-A); raw/controls/ reference beads
+YG9-A,YG9-A,Spectral_YG9-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (YG9-A); raw/controls/ reference beads
+YG10-A,YG10-A,Spectral_YG10-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (YG10-A); raw/controls/ reference beads
+R1-A,R1-A,Spectral_R1-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (R1-A); raw/controls/ reference beads
+R2-A,R2-A,Spectral_R2-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (R2-A); raw/controls/ reference beads
+R3-A,R3-A,Spectral_R3-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (R3-A); raw/controls/ reference beads
+R4-A,R4-A,Spectral_R4-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (R4-A); raw/controls/ reference beads
+R5-A,R5-A,Spectral_R5-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (R5-A); raw/controls/ reference beads
+R6-A,R6-A,Spectral_R6-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (R6-A); raw/controls/ reference beads
+R7-A,R7-A,Spectral_R7-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (R7-A); raw/controls/ reference beads
+R8-A,R8-A,Spectral_R8-A,Not specified in FCS or publication,lineage,Murine 4T1 Breast Tumor Microenvironment,FCS $PnN (R8-A); raw/controls/ reference beads

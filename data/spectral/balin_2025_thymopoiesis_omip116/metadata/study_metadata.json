@@ -1,0 +1,9 @@
+{
+  "title": "OMIP-116: A 39-Color Full Spectrum Flow Cytometric Panel to Deeply Characterize Human Thymopoiesis",
+  "doi": "10.5281/zenodo.20133311",
+  "citation": "Balin et al., Cytometry Part A 2025;107:501-512 (OMIP-116; DOI: 10.1002/cyto.a.24951)",
+  "cytometer": "BD FACSymphony A5 SE (FACSymphony Analyzer)",
+  "biology": "Human thymocytes and peripheral blood mononuclear cells",
+  "parameters": "39 colors spanning 5 lasers + PeacoQC automated cleaning + FlowJo workspace",
+  "af_strategy": "SpectroFlo unmixing with PeacoQC fluidics anomaly removal"
+}

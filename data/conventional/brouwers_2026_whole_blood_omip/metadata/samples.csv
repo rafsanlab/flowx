@@ -1,0 +1,3 @@
+sample_id,filename,relative_path,condition,replicate,specimen,donor_or_cell_line,batch_id,acquisition_date,acquisition_time,cytometer,is_control,total_events,provenance_source
+Spaceman_Sample1,Spaceman_Sample1.fcs,raw/samples/Spaceman_Sample1.fcs,Healthy_Donor_Fresh_Whole_Blood,Donor_1,Fresh_Whole_Blood,Human_Donor_Spaceman_1,2024-11-07_LSRFortessa,2024-11-07,19:26:29,LSRFortessa,false,181661,FCS_$TEXT + OMIP_Panel_Summary.md + DOI:10.5281/zenodo.21869988
+

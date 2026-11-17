@@ -1,0 +1,5 @@
+sample_id,filename,relative_path,condition,replicate,specimen,donor_or_cell_line,batch_id,acquisition_date,acquisition_time,cytometer,is_control,total_events,provenance_source
+101_DEN084Y5_15_E01_008_clean,101_DEN084Y5_15_E01_008_clean.fcs,raw/samples/101_DEN084Y5_15_E01_008_clean.fcs,Stimulation_Baseline_E01,Replicate_1,101_DEN084Y5_E01,101_DEN084Y5,2017-09-15_LSRII,2017-09-15,13:37:39,LSRII,false,290172,FCS_$TEXT + 8_color_ICS.wsp + DOI:10.3389/fimmu.2021.768541
+101_DEN084Y5_15_E03_009_clean,101_DEN084Y5_15_E03_009_clean.fcs,raw/samples/101_DEN084Y5_15_E03_009_clean.fcs,Stimulation_Condition_E03,Replicate_1,101_DEN084Y5_E03,101_DEN084Y5,2017-09-15_LSRII,2017-09-15,13:39:24,LSRII,false,283969,FCS_$TEXT + 8_color_ICS.wsp + DOI:10.3389/fimmu.2021.768541
+101_DEN084Y5_15_E05_010_clean,101_DEN084Y5_15_E05_010_clean.fcs,raw/samples/101_DEN084Y5_15_E05_010_clean.fcs,Stimulation_Condition_E05,Replicate_1,101_DEN084Y5_E05,101_DEN084Y5,2017-09-15_LSRII,2017-09-15,13:41:08,LSRII,false,285290,FCS_$TEXT + 8_color_ICS.wsp + DOI:10.3389/fimmu.2021.768541
+

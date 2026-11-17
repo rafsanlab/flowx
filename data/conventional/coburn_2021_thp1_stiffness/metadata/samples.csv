@@ -1,0 +1,6 @@
+sample_id,filename,relative_path,condition,stain_tube,crosslinker_pct,stiffness_kpa,donor_or_cell_line,batch_id,acquisition_date,acquisition_time,cytometer,is_control,total_events,provenance_source
+Specimen_001_01gx 11b,Specimen_001_01gx 11b.fcs,raw/samples/Specimen_001_01gx 11b.fcs,Hydrogel_0.01pct_Glyoxal,SingleStain_CD11b,0.01,3.35,THP-1_Human_Macrophage,2019-07-23_LSRFortessa,2019-07-23,14:00:09,LSRFortessa,false,10066,FCS_$TEXT + CC_01gx_and_02gx.xml + Table 3 DOI:10.1039/D1BM00201A
+Specimen_001_01gx 206,Specimen_001_01gx 206.fcs,raw/samples/Specimen_001_01gx 206.fcs,Hydrogel_0.01pct_Glyoxal,SingleStain_CD206,0.01,3.35,THP-1_Human_Macrophage,2019-07-23_LSRFortessa,2019-07-23,14:14:46,LSRFortessa,false,10000,FCS_$TEXT + CC_01gx_and_02gx.xml + Table 3 DOI:10.1039/D1BM00201A
+Specimen_001_01gx 33,Specimen_001_01gx 33.fcs,raw/samples/Specimen_001_01gx 33.fcs,Hydrogel_0.01pct_Glyoxal,SingleStain_CD33,0.01,3.35,THP-1_Human_Macrophage,2019-07-23_LSRFortessa,2019-07-23,14:04:33,LSRFortessa,false,10000,FCS_$TEXT + CC_01gx_and_02gx.xml + Table 3 DOI:10.1039/D1BM00201A
+Specimen_001_01gx 80,Specimen_001_01gx 80.fcs,raw/samples/Specimen_001_01gx 80.fcs,Hydrogel_0.01pct_Glyoxal,SingleStain_CD80,0.01,3.35,THP-1_Human_Macrophage,2019-07-23_LSRFortessa,2019-07-23,14:09:15,LSRFortessa,false,10000,FCS_$TEXT + CC_01gx_and_02gx.xml + Table 3 DOI:10.1039/D1BM00201A
+

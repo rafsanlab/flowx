@@ -1,0 +1,23 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+Time,Time,Time,Not specified in FCS or publication,time,All Events,FCS $P1N
+SSC-H,SSC-H,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P2N
+SSC-A,SSC-A,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P3N
+FSC-H,FSC-H,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P4N
+FSC-A,FSC-A,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P5N
+SSC-B-H,SSC-B-H,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P6N
+SSC-B-A,SSC-B-A,Scatter,Not specified in FCS or publication,scatter,All Cells,FCS $P7N
+Pacific Blue-A,Lineage,Pacific Blue,BioLegend (CD3/Gr-1/CD11b/NK1.1/Ter119/B220/CD19),dump;lineage,Differentiated Lineage Cells,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+Zombie Aqua-A,Zombie Aqua,Zombie Aqua,BioLegend #423102,viability,Dead Cells,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+BV650-A,CD16,BV650,BioLegend,lineage;functional,Myeloid Cells; NK Cells,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+BV711-A,CD31,BV711,BioLegend,lineage,Endothelial Cells; Platelets,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+BV785-A,CD11b,BV785,BioLegend,lineage,Myeloid Cells,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+FITC-A,CD235a,FITC,BioLegend,lineage,Erythroid Lineage,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+PerCP-A,CD45,PerCP,BioLegend,lineage,Hematopoietic Cells,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+PE-A,CD34,PE,BioLegend,lineage,Hematopoietic Stem & Progenitor Cells,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+PE-Dazzle594-A,CD90,PE-Dazzle594,BioLegend,lineage,HSPCs; Stromal Cells,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+PE Fire 700-A,CD14,PE Fire 700,BioLegend,lineage,Monocytes; Macrophages,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+PE-Cy7-A,CD71,PE-Cy7,BioLegend #113812,lineage;functional,Erythroid Progenitors; Proliferating Cells,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+APC-A,CD42b,APC,BioLegend,lineage,Megakaryocytes; Platelets,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+Alexa Fluor 700-A,CD41,Alexa Fluor 700,BioLegend #133926,lineage,Megakaryocytes; Platelets,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+APC-Cy7-A,CD271,APC-Cy7,BioLegend,lineage,Mesenchymal Stem/Stromal Cells,240228_organoids_staining.xlsx; Stem Cell Reports 2026
+AF-A,Autofluorescence,Autofluorescence,Not specified in FCS or publication,autofluorescence,Autofluorescent Cellular Background,FCS $P22N

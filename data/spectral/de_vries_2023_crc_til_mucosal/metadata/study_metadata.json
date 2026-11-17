@@ -1,0 +1,10 @@
+{
+  "title": "I-COMET panel v5 (32-color Cytek Aurora-Evo spectral immunophenotyping cohort; benchmark directory retains de_vries_2023_crc_til_mucosal identifier)",
+  "doi": "10.5281/zenodo.21643327",
+  "citation": "Le Bourhis, L. (2026). I-COMET panel v5 spectral flow cytometry FCS cohort (Zenodo DOI: 10.5281/zenodo.21643327; acquired 2026-04-13 on Cytek Aurora-Evo with SpectroFlo 4.0.2)",
+  "publication_date": "2026-04-13",
+  "cytometer": "Cytek Aurora-Evo 5-laser (UV-V-B-YG-R, SpectroFlo 4.0.2)",
+  "biology": "Human immune cell phenotyping (32-color I-COMET v5 unmixed spectral panel)",
+  "parameters": "40 total FCS parameters (32 fluorescence markers/viability + 6 scatter + Time + autofluorescence)",
+  "af_strategy": "Pre-unmixed with Cytek_AFExtract and embedded 33x33 spillover matrix"
+}

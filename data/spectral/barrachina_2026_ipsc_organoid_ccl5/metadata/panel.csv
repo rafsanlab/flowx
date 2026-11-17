@@ -1,0 +1,23 @@
+channel,marker,fluorophore
+Time,,
+SSC-H,,
+SSC-A,,
+FSC-H,,
+FSC-A,,
+SSC-B-H,,
+SSC-B-A,,
+Pacific Blue-A,Lineage,Pacific Blue
+Zombie Aqua-A,Zombie Aqua,Zombie Aqua
+BV650-A,CD16,BV650
+BV711-A,CD31,BV711
+BV785-A,CD11b,BV785
+FITC-A,CD235a,FITC
+PerCP-A,CD45,PerCP
+PE-A,CD34,PE
+PE-Dazzle594-A,CD90,PE-Dazzle594
+PE Fire 700-A,CD14,PE Fire 700
+PE-Cy7-A,CD71,PE-Cy7
+APC-A,CD42b,APC
+Alexa Fluor 700-A,CD41,Alexa Fluor 700
+APC-Cy7-A,CD271,APC-Cy7
+AF-A,,

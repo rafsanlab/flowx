@@ -1,0 +1,17 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+FSC-A,FSC-A,Scatter,NA,scatter,All Intact Events,FCS_$P1N
+FSC-H,FSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P2N
+FSC-W,FSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P3N
+SSC-A,SSC-A,Scatter,NA,scatter,Granularity; Lymphocytes,FCS_$P4N
+SSC-H,SSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P5N
+SSC-W,SSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P6N
+TNFa FITC FLR-A,TNFa,FITC,Not specified in FCS or publication,functional,Activated T Cells; Pro-inflammatory Cytokine,FCS_$P7N + 8_color_ICS.wsp
+CD8 PerCP-Cy55 FLR-A,CD8,PerCP-Cy5.5,Not specified in FCS or publication,lineage,Cytotoxic T Cells (CD8+),FCS_$P8N + 8_color_ICS.wsp
+IL2 BV421 FLR-A,IL2,BV421,Not specified in FCS or publication,functional,Activated T Cells; Proliferation Cytokine,FCS_$P9N + 8_color_ICS.wsp
+Aqua Amine FLR-A,Aqua Amine,Amine Reactive Dye,Not specified in FCS or publication,viability,Viable Cells (Dead Cell Exclusion),FCS_$P10N + 8_color_ICS.wsp
+IFNg APC FLR-A,IFNg,APC,Not specified in FCS or publication,functional,Activated T Cells; Type 1 Effector Cytokine,FCS_$P11N + 8_color_ICS.wsp
+CD3 APC-H7 FLR-A,CD3,APC-H7,Not specified in FCS or publication,lineage,Pan-T Cells,FCS_$P12N + 8_color_ICS.wsp
+CD107a PE FLR-A,CD107a,PE,Not specified in FCS or publication,functional,Cytotoxic T Cells; Degranulation Marker,FCS_$P13N + 8_color_ICS.wsp
+CD4 PE-Cy7 FLR-A,CD4,PE-Cy7,Not specified in FCS or publication,lineage,Helper T Cells (CD4+),FCS_$P14N + 8_color_ICS.wsp
+Time,Time,Time,NA,time,Fluidics Acquisition Stability QC,FCS_$P15N
+

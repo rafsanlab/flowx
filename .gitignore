@@ -1,0 +1,108 @@
+# ==========================================
+# Flow Cytometry Project Data & Outputs
+# ==========================================
+data/*
+!data/conventional/
+data/conventional/*
+!data/conventional/*/
+data/conventional/*/*
+!data/conventional/*/metadata/
+!data/spectral/
+data/spectral/*
+!data/spectral/*/
+data/spectral/*/*
+!data/spectral/*/metadata/
+outputs/
+runs/
+reports/
+docs/_build/
+todolist.txt
+*.fcs
+*.lmd
+*.wsp
+
+# ==========================================
+# Python Bytecode & Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Testing, Coverage & Quality Tools
+# ==========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Jupyter Notebooks
+# ==========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==========================================
+# IDEs and Code Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# Distribution, Build & Packaging
+# ==========================================
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Logs and Temporary Files
+# ==========================================
+*.log
+*.tmp
+*.bak
+*.bin
+*.tree
+*.weights
+

@@ -1,0 +1,4 @@
+sample_id,filename,relative_path,condition,replicate,specimen,donor_or_cell_line,batch_id,acquisition_date,acquisition_time,cytometer,is_control,total_events,provenance_source
+CytoTrol_CytoTrol_1,CytoTrol_CytoTrol_1.fcs,raw/samples/CytoTrol_CytoTrol_1.fcs,CytoTrol_PBMC_Standard,Replicate_1,CytoTrol_1,CytoTrol_Lyophilized_Human_PBMC,2012-06-05_LSRII,2012-06-05,12:00:52,LSRII,false,119531,FCS_$TEXT + manual.xml SampleID 19 + DOI:10.1371/journal.pcbi.1003806
+CytoTrol_CytoTrol_2,CytoTrol_CytoTrol_2.fcs,raw/samples/CytoTrol_CytoTrol_2.fcs,CytoTrol_PBMC_Standard,Replicate_2,CytoTrol_2,CytoTrol_Lyophilized_Human_PBMC,2012-06-05_LSRII,2012-06-05,12:08:23,LSRII,false,115728,FCS_$TEXT + manual.xml SampleID 20 + DOI:10.1371/journal.pcbi.1003806
+

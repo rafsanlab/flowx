@@ -1,0 +1,9 @@
+{
+  "title": "Autoimmune response to C9orf72 protein in amyotrophic lateral sclerosis - Spectral data",
+  "doi": "10.5281/zenodo.16749283",
+  "citation": "Michaelis et al., Nature 2025 (DOI: 10.1038/s41586-025-09588-6)",
+  "cytometer": "Cytek Aurora Full Spectrum Flow Cytometer",
+  "biology": "Human PBMCs from ALS patients vs Healthy Controls",
+  "parameters": "High-parameter spectral immunophenotyping with 5 FlowJo .wsp workspace files",
+  "af_strategy": "SpectroFlo unmixing with manual FlowJo gating validation"
+}

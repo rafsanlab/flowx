@@ -1,0 +1,9 @@
+{
+  "title": "CytoBatchFlagR: Spectral flow cytometry multi-batch benchmark",
+  "doi": "10.5281/zenodo.15388817",
+  "citation": "FlagR Multi-Batch Longitudinal Benchmark",
+  "cytometer": "Cytek Aurora 5-laser (UV-V-B-YG-R, 64 APD channels)",
+  "biology": "Human PBMCs measured across independent longitudinal acquisition batches",
+  "parameters": ">40 markers across 5 lasers with batch stimulus variations",
+  "af_strategy": "SpectroFlo unmixing with batch effect monitoring"
+}

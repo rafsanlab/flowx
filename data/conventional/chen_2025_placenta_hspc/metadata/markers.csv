@@ -1,0 +1,15 @@
+channel_name,marker_name,fluorophore,clone_or_catalog,marker_class,cell_type_association,provenance_source
+FSC-A,FSC-A,Scatter,NA,scatter,All Intact Events,FCS_$P1N
+FSC-H,FSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P2N
+FSC-W,FSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P3N
+SSC-A,SSC-A,Scatter,NA,scatter,Granularity; Placental Cells,FCS_$P4N
+SSC-H,SSC-H,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P5N
+SSC-W,SSC-W,Scatter,NA,scatter,Singlets vs Doublets,FCS_$P6N
+730/45 Red-A,c-Kit,Alexa Fluor 700,BioLegend #105846 (2B8),lineage,Hematopoietic Stem and Progenitor Cells (HSPCs),FCS_$P7N/$P7S + Read me 3D.rtf + Chen et al.
+780/60 Red-A,CD31,APC-Cy7,BioLegend #102439 (390),unused,Endothelial Cells (PECAM-1; excluded from final analysis cocktail per Read me 3D.rtf),FCS_$P8N/$P8S + Read me 3D.rtf + Chen et al.
+525/50 Blue-A,CD34,FITC,BD #553733 (RAM34),lineage,Endothelial Cells; HSPCs,FCS_$P9N/$P9S + Read me 3D.rtf + Chen et al.
+710/50 Blue-A,7-AAD,7-AAD,BioLegend #420404,viability,Viable Cells (Dead Cell Exclusion),FCS_$P10N/$P10S + Read me 3D.rtf + Chen et al.
+450/50 Violet-A,CD45,BV421,BioLegend #103133 (30-F11),lineage,Pan-Hematopoietic Lineage,FCS_$P11N/$P11S + Read me 3D.rtf + Chen et al.
+582/15 Green-A,tdTomato,tdTomato,Endogenous tdTomato (Hoxa13Cre; Ai14),functional,Lineage-Traced Reporter (TdT+),FCS_$P12N/$P12S + Read me 3D.rtf + Chen et al.
+Time,Time,Time,NA,time,Fluidics Acquisition Stability QC,FCS_$P13N
+

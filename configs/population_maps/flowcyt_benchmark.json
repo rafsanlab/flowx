@@ -1,0 +1,13 @@
+{
+  "description": "Cell population class mapping for FlowCyt (CHIL 2024) bone marrow benchmark dataset",
+  "pattern": "_(?P<code>[A-Z0-9]+)(?:\\.fcs)?$",
+  "mappings": {
+    "A": "Full cell population (Total)",
+    "O": "T lymphocytes",
+    "N": "B lymphocytes",
+    "G": "Monocytes",
+    "P": "Mast cells",
+    "K": "Hematopoietic Stem & Progenitor Cells (HSPCs)",
+    "B": "Other / unclassified cells"
+  }
+}
