@@ -14,7 +14,19 @@
 
 ## Installation
 
-Requires **Python >= 3.10**.
+Requires **Python >= 3.10** (automatically managed if using `uv` or the one-click installers below).
+
+### One-Click Installers (Windows, macOS, Linux)
+
+These installers automatically install [`uv`](https://docs.astral.sh/uv/), set up a `.venv` with Python 3.11, install core **FlowX**, and create two custom-icon shortcuts (**FlowX Terminal** and **FlowX Folder**) on your Desktop / Applications menu:
+
+- **Windows:** Download and double-click [`installers/install-flowx.bat`](installers/install-flowx.bat)
+- **macOS:** Download and double-click [`installers/install-flowx.command`](installers/install-flowx.command) *(if Gatekeeper prompts, right-click → Open)*
+- **Linux (Ubuntu, etc.):** Run:
+  ```bash
+  curl -fsSL https://raw.githubusercontent.com/rafsanlab/flowx/main/installers/install-flowx.sh | bash
+  ```
+  Or download [`installers/install-flowx.sh`](installers/install-flowx.sh) and run `bash install-flowx.sh`.
 
 ### Using `uv`
 
