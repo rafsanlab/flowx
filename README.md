@@ -27,7 +27,7 @@ uv pip install -e ".[dev,phenograph]"
 
 # Or install the `flowx` CLI globally from local clone or GitHub
 uv tool install -e .
-uv tool install "git+https://github.com/rafsanlab/antigravity-test.git"
+uv tool install "git+https://github.com/rafsanlab/flowx.git"
 ```
 
 ### Using `pip`
@@ -40,7 +40,7 @@ pip install -e .
 pip install -e ".[dev,phenograph]"
 
 # Or install directly from GitHub
-pip install "git+https://github.com/rafsanlab/antigravity-test.git"
+pip install "git+https://github.com/rafsanlab/flowx.git"
 ```
 
 > **Note on Optional Dependencies:** `phenograph` pulls in GPL-licensed dependencies (`leidenalg`, `igraph`) and is kept as an optional extra (`[phenograph]`) separate from the permissively licensed core dependencies.
