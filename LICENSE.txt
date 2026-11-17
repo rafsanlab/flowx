@@ -5,7 +5,7 @@ License text copyright © 2017 MariaDB Corporation Ab, All Rights Reserved.
 
 Licensor: Mohd Rifqi Rafsanjani
 Licensed Work: FlowX
-Additional Use Grant: You may make production use of the Licensed Work solely for non-commercial academic, educational, or non-profit scientific research purposes. All other production use requires a commercial licence from the Licensor.
+Additional Use Grant: You may make production use of the Licensed Work solely for non-commercial academic, educational, or non-profit scientific research purposes. Any use by or on behalf of a for-profit entity—including internal research and development (R&D), drug discovery, or generating data or insights for commercial purposes—is excluded from this grant and requires a commercial licence from the Licensor.
 Change Date: 2030-11-17
 Change License: Mozilla Public License 2.0
 
